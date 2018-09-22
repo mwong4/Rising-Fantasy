@@ -5,9 +5,9 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour {
 
     public float LimitCounter;
-    preivate int ResourceCounter;
 
-    public GameObject ResourceObject;
+    private int ResourceCounter;
+
 
 
 	// Use this for initialization
@@ -18,9 +18,7 @@ public class NewBehaviourScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if(GameObject.FindGameObjectWithTag("ResourceObjects").Length < LimitCounter) {
-            Instantiate(ResourceObject, newVector3(0, 0, 0), Quaternion.identity);
-        }
+        ResourceCounter = GameObject.FindGameObjectWithTag("ResourceObject").Length;
 		
 	}
 }
