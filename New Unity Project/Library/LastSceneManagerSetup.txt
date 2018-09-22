@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ProceduralToolkit/Examples/LowPolyTerrain/LowPolyTerrain.unity
+  isLoaded: 1
+  isActive: 1
