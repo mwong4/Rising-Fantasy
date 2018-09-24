@@ -2,13 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class TestingInstantiation : MonoBehaviour {
 
-    public float LimitCounter;
-
-    private int ResourceCounter;
-
-
+    public gameObject 
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +14,10 @@ public class NewBehaviourScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        ResourceCounter = GameObject.FindGameObjectWithTag("ResourceObject").Length;
+
+        if(Input.GetButtonDown("Fire1")){
+            Debug.Log("Fired");
+        }
 		
 	}
 }
