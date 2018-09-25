@@ -2,23 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class ResourceSpawnScript : MonoBehaviour {
 
-    public float LimitCounter;
+    public GameObject Resource;
 
-    private int ResourceCounter;
+    //private int rescued;
+
+    //int player;
 
 
 
 	// Use this for initialization
 	void Start () {
+
+        //player = GameObject.FindGameObjectWithTag("ResourceObject").Length;
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-//        ResourceCounter = GameObject.FindGameObjectWithTag("ResourceObject").Length;
+
+
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(Resource, new Vector3(1, 1, 1), Quaternion.identity);
+        }
+
+
 		
 	}
 }
