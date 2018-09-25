@@ -6,29 +6,50 @@ public class ResourceSpawnScript : MonoBehaviour {
 
     public GameObject Resource;
 
-    //private int rescued;
+    int ResourceCount;
+    public int ResourceLimit;
 
-    //int player;
+    float CurrentTime;
+    public float SetDelay;
+
+    //Min spawn range
+    public float SpawnRangeMinX;
+    public float SpawnRangeMinZ;
+
+    //Max spawn range
+    public float SpawnRangeMaxX;
+    public float SpawnRangeMaxZ;
 
 
 
 	// Use this for initialization
 	void Start () {
 
-        //player = GameObject.FindGameObjectWithTag("ResourceObject").Length;
+
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-
-
-
-        if (Input.GetButtonDown("Fire1"))
+        if (ResourceCount < ResourceLimit && CurrentTime < SetDelay)
         {
-            Instantiate(Resource, new Vector3(1, 1, 1), Quaternion.identity);
+            CurrentTime += 0.01f;
         }
+        if (ResourceCount < ResourceLimit && CurrentTime > SetDelay)
+        {
+            CurrentTime = 0f;
+            Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 1, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+        }
+
+        //Debug.Log("ResourceObjects: " + ResourceCount);
+
+        ResourceCount = GameObject.FindGameObjectsWithTag("ResourceObject").Length;
+
+
+
+
+
 
 
 		

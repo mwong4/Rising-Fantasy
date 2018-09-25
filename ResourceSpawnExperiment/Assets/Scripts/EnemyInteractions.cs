@@ -16,7 +16,7 @@ public class EnemyInteractions : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Time is:" + currentTime);
+       // Debug.Log("Time is:" + currentTime);
     }
 
     void OnCollisionEnter(Collision col)
