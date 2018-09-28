@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\EnemyBehaviorScript.cs" />
      <Compile Include="Assets\Scripts\EnemyInteractions.cs" />
+     <Compile Include="Assets\Scripts\NPCmove.cs" />
      <Compile Include="Assets\Scripts\ResourceSpawnScript.cs" />
      <Compile Include="Assets\Scripts\TestingInstantiation.cs" />
  <Reference Include="UnityEngine.UI">
