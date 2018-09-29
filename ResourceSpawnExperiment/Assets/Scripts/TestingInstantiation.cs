@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestingInstantiation : MonoBehaviour {
 
-    public gameObject 
+    public GameObject Object;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +17,7 @@ public class TestingInstantiation : MonoBehaviour {
 
         if(Input.GetButtonDown("Fire1")){
             Debug.Log("Fired");
+            Instantiate(Object, new Vector3(1, 1, 1), Quaternion.identity);
         }
 		
 	}
