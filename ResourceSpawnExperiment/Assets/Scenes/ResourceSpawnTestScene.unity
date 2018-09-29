@@ -236,7 +236,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4849704813872418, guid: 70f469a621eef4c478dd3ded0184786e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 187
+      value: 188
       objectReference: {fileID: 0}
     - target: {fileID: 4849704813872418, guid: 70f469a621eef4c478dd3ded0184786e, type: 2}
       propertyPath: m_LocalPosition.y
@@ -466,6 +466,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e23fcdaecf8c0194baff690c20023dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: {fileID: 0}
+  ResourceLimit: 0
+  rangeSeperation: 0
+  SetDelay: 0
+  RandomSpawnRange: 0
+  SpawnRangeMinX: 0
+  SpawnRangeMinZ: 0
+  SpawnRangeMaxX: 0
+  SpawnRangeMaxZ: 0
 --- !u!4 &1473513310
 Transform:
   m_ObjectHideFlags: 0
