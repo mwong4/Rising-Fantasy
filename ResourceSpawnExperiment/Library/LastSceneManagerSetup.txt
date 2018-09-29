@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/TestNavigation.unity
+- path: Assets/Scenes/ResourceSpawnTestScene.unity
   isLoaded: 1
   isActive: 1

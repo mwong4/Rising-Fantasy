@@ -6,50 +6,39 @@ public class EnemySpawner : MonoBehaviour {
 
 	public GameObject Enemy;
 
-	int ResourceCount;
-	public int ResourceLimit;
-	public float rangeSeperation;
-	float RandomValue;
+	public GameObject SpawnPoint;
 
-	float CurrentTime;
+	int SpawnCount;
+	public int SpawnLimit;
+
+	public float CurrentTime;
 	public float SetDelay;
 
-	public float RandomSpawnRange;
-
-	//Min spawn range
-
-	public float SpawnRangeMinX;
-	public float SpawnRangeMinZ;
-
-	//Max spawn range
-
-	public float SpawnRangeMaxX;
-	public float SpawnRangeMaxZ;
 
 
 	// Use this for initialization
 	void Start () {
+
+		SpawnPoint = GameObject.FindGameObjectWithTag ("SpawnPoint");
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		RandomValue = Random.Range (0, RandomSpawnRange);
-
-		if (ResourceCount < ResourceLimit && CurrentTime < SetDelay)
+		if (SpawnCount < SpawnLimit && CurrentTime < SetDelay)
 		{
 			CurrentTime += 0.01f;
 		}
-		if (ResourceCount < ResourceLimit && CurrentTime > SetDelay && RandomSpawnRange <= RandomValue )
+		if (SpawnCount < SpawnLimit && CurrentTime > SetDelay)
 		{
 			CurrentTime = 0f;
-			Instantiate(Enemy, new Vector3(Random.Range(SpawnRangeMinX  , SpawnRangeMaxX), 1, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+			Instantiate(Enemy, SpawnPoint.transform.position, Quaternion.identity);
 		}
 
 		//Debug.Log("ResourceObjects: " + ResourceCount);
 
-		ResourceCount = GameObject.FindGameObjectsWithTag("ResourceObject").Length;
+		SpawnCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
 
 		
 	}

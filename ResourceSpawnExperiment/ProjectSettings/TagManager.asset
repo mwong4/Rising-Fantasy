@@ -8,6 +8,8 @@ TagManager:
   - Structure
   - Crystal
   - Enemy
+  - SpawnPoint
+  - Destination
   layers:
   - Default
   - TransparentFX
