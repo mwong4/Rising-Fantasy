@@ -156,10 +156,10 @@ MonoBehaviour:
   Resource: {fileID: 1457584574693750, guid: 70f469a621eef4c478dd3ded0184786e, type: 2}
   ResourceLimit: 10
   SetDelay: 3
-  SpawnRangeMinX: -1000
-  SpawnRangeMinZ: -1000
-  SpawnRangeMaxX: 1000
-  SpawnRangeMaxZ: 1000
+  SpawnRangeMinX: -10
+  SpawnRangeMinZ: -10
+  SpawnRangeMaxX: 10
+  SpawnRangeMaxZ: 10
 --- !u!1001 &574571023
 Prefab:
   m_ObjectHideFlags: 0
@@ -286,26 +286,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: faa456d93ee344a1bb122b6475ae6f3c, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &860424370 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1077868397439818, guid: faa456d93ee344a1bb122b6475ae6f3c,
-    type: 2}
-  m_PrefabInternal: {fileID: 860424369}
---- !u!208 &860424371
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 860424370}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &1055427674
 GameObject:
   m_ObjectHideFlags: 0
