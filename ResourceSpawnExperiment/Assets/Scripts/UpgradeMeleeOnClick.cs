@@ -1,0 +1,47 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class UpgradeMeleeOnClick : MonoBehaviour {
+
+    public GameObject myPlayer;
+    float xpPoints;
+    float meleeLevel;
+
+	// Use this for initialization
+	void Start () {
+
+        myPlayer = GameObject.FindGameObjectWithTag("Player");// Get XP Script and xpPoints value
+        PlayerXP playerScript = myPlayer.GetComponent<PlayerXP>();
+
+        xpPoints = playerScript.CurrentXP;
+        meleeLevel = playerScript.MeleeLevel;
+
+
+       // playerScript.CurrentXP = xpPoints;
+
+	}
+	
+	// Update is called once per frame
+	void Update () {
+
+        Debug.Log("Referenced points is: " + xpPoints + " and Melee Level is: " + meleeLevel);
+		
+	}
+
+    public void UpgradeMelee()
+    {
+            if (xpPoints >= 10 /*Level Up Requirement*/){
+               xpPoints = xpPoints - 10; //reduce xpPoints by 10
+            meleeLevel = meleeLevel + 1f;//level up melee
+
+        //      if (playerScript.CurrentXP >= 10 /*Level Up Requirement*/){
+        //         playerScript.CurrentXP = CurrentXp - 10f;
+
+     //   Debug.Log("Action");
+
+   // }
+        }
+
+    }
+}

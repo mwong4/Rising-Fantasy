@@ -57,8 +57,10 @@
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\NavAgentScript.cs" />
      <Compile Include="Assets\Scripts\NPCmove.cs" />
+     <Compile Include="Assets\Scripts\PlayerXP.cs" />
      <Compile Include="Assets\Scripts\ResourceSpawnScript.cs" />
      <Compile Include="Assets\Scripts\TestingInstantiation.cs" />
+     <Compile Include="Assets\Scripts\UpgradeMeleeOnClick.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/maxwong/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>

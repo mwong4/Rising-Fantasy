@@ -23,9 +23,8 @@ public class CraftingScript : MonoBehaviour {
 
         if(col.gameObject.tag == "")
         {
-            Instantiate(Object1, this.transform.position, Quaternion.identity);
-            Destroy(col.GameObject);
-            Destroy(this.GameObject);
+            Destroy(col.gameObject);
+            Destroy(this.gameObject);
         }
     }
 }
