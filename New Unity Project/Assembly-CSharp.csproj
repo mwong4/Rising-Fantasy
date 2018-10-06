@@ -58,6 +58,7 @@
      <Compile Include="Assets\Menu thing\Scripts\DragPanel.cs" />
      <Compile Include="Assets\Menu thing\Scripts\DropMe.cs" />
      <Compile Include="Assets\Menu thing\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\QuitonClick.cs" />
      <Compile Include="Assets\Menu thing\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Menu thing\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Menu thing\Scripts\ShowSliderValue.cs" />
@@ -66,7 +67,7 @@
      <None Include="Assets\Menu thing\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Menu thing\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/rufinoansara/Documents/New Unity Project/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/blairmaranda/Documents/GitHub/Rising-Fantasy/New Unity Project/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
