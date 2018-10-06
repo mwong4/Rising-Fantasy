@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Turret.unity
+- path: C:/Users/rufinoansara/Downloads/Shoot_Enemy/New Unity Project (2)/Assets/Test_Trial.unity
   isLoaded: 1
   isActive: 1

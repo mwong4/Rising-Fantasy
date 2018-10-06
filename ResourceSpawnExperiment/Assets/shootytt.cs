@@ -10,7 +10,7 @@ public class shootytt : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Destroy (gameObject, 1f);s
+		Destroy (gameObject, 1f);
 		direction = this.transform.localPosition;
 	}
 	
