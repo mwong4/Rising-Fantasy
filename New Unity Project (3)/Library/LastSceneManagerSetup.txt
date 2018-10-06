@@ -1,0 +1,5 @@
+sceneSetups:
+- path: C:/Users/blairmaranda/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/Terrian
+    Test Lee.unity
+  isLoaded: 1
+  isActive: 1
