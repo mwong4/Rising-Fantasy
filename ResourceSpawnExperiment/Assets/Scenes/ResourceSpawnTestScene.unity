@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: upgrade melee
+  m_Text: upgrade melee (10)
 --- !u!222 &6584366
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -251,6 +251,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentXP: 100
+  MeleeLevel: 0
+  RangedLevel: 0
 --- !u!1 &466972983
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +385,16 @@ Prefab:
     - target: {fileID: 4327826885447426, guid: 481185ef482ad47fd9fc4f8e7d83e994, type: 2}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114763846111365652, guid: 481185ef482ad47fd9fc4f8e7d83e994,
+        type: 2}
+      propertyPath: Object
+      value: 
+      objectReference: {fileID: 1724188955}
+    - target: {fileID: 114763846111365652, guid: 481185ef482ad47fd9fc4f8e7d83e994,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 481185ef482ad47fd9fc4f8e7d83e994, type: 2}
@@ -563,7 +575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb9ba62576864c9e8676403e63ab329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlayer: {fileID: 0}
+  myPlayer: {fileID: 419485303}
 --- !u!1 &816416582
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +587,7 @@ GameObject:
   - component: {fileID: 816416586}
   - component: {fileID: 816416585}
   - component: {fileID: 816416584}
+  - component: {fileID: 816416587}
   m_Layer: 5
   m_Name: RangedUpgradeButton
   m_TagString: Untagged
@@ -639,7 +652,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 816416585}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 816416587}
+        m_MethodName: UpgradeRanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &816416585
@@ -675,6 +699,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 816416582}
+--- !u!114 &816416587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816416582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d239273af5f04f27b64a8991621930e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPlayer: {fileID: 419485303}
 --- !u!1001 &860424369
 Prefab:
   m_ObjectHideFlags: 0
@@ -1035,6 +1071,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1724188955 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1077868397439818, guid: faa456d93ee344a1bb122b6475ae6f3c,
+    type: 2}
+  m_PrefabInternal: {fileID: 860424369}
 --- !u!1 &1742402796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1205,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: upgrade ranged
+  m_Text: upgrade ranged (7)
 --- !u!222 &1881204423
 CanvasRenderer:
   m_ObjectHideFlags: 0

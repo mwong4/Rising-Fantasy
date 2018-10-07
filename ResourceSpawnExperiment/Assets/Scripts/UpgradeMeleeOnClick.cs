@@ -8,6 +8,8 @@ public class UpgradeMeleeOnClick : MonoBehaviour {
     float xpPoints;
     float meleeLevel;
 
+
+
 	// Use this for initialization
 	void Start () {
 
@@ -18,6 +20,7 @@ public class UpgradeMeleeOnClick : MonoBehaviour {
         meleeLevel = playerScript.MeleeLevel;
 
 
+
        // playerScript.CurrentXP = xpPoints;
 
 	}
@@ -25,7 +28,10 @@ public class UpgradeMeleeOnClick : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        Debug.Log("Referenced points is: " + xpPoints + " and Melee Level is: " + meleeLevel);
+
+
+
+      //  Debug.Log("Referenced points is: " + xpPoints + " and Melee Level is: " + meleeLevel);
 		
 	}
 
@@ -34,6 +40,15 @@ public class UpgradeMeleeOnClick : MonoBehaviour {
             if (xpPoints >= 10 /*Level Up Requirement*/){
                xpPoints = xpPoints - 10; //reduce xpPoints by 10
             meleeLevel = meleeLevel + 1f;//level up melee
+
+            myPlayer.GetComponent<PlayerXP>().MeleeLevel += 1f;
+            myPlayer.GetComponent<PlayerXP>().CurrentXP -= 10f;
+
+          //  playerScript.CurrentXP = xpPoints;
+          //  playerScript.MeleeLevel = meleeLevel;
+
+
+           // playerScript.MeleeLevel = - 10f;
 
         //      if (playerScript.CurrentXP >= 10 /*Level Up Requirement*/){
         //         playerScript.CurrentXP = CurrentXp - 10f;
