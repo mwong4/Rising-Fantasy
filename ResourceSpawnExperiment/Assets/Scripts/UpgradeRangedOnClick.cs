@@ -35,7 +35,7 @@ public class UpgradeRangedOnClick : MonoBehaviour {
 
     public void UpgradeRanged()
     {
-        if (xpPoints > 7 /*Level Up Requirement*/ && xpPoints)
+        if (xpPoints > 7 /*Level Up Requirement*/)
         {
             xpPoints = xpPoints - 7; //reduce xpPoints by 10
             rangedLevel = rangedLevel + 1f;//level up ranged
