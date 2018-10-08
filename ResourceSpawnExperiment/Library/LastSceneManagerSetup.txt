@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Test_Trial.unity
+- path: Assets/CombineScene2.unity
   isLoaded: 1
   isActive: 1

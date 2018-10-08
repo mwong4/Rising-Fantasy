@@ -132,9 +132,9 @@
      <Compile Include="Assets\Scripts\Core\Utilities\Timer.cs" />
      <Compile Include="Assets\Scripts\Core\Utilities\VectorHelper.cs" />
      <Compile Include="Assets\Scripts\CraftingScript.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\EnemyBehaviorScript.cs" />
      <Compile Include="Assets\Scripts\EnemyInteractions.cs" />
+     <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\lookatmouse.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />

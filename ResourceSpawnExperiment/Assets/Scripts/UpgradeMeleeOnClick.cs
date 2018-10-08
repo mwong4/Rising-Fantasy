@@ -5,6 +5,7 @@ using UnityEngine;
 public class UpgradeMeleeOnClick : MonoBehaviour {
 
     public GameObject myPlayer;
+    public GameObject myEnemy;
     float xpPoints;
     float meleeLevel;
 
@@ -18,6 +19,9 @@ public class UpgradeMeleeOnClick : MonoBehaviour {
 
         xpPoints = playerScript.CurrentXP;
         meleeLevel = playerScript.MeleeLevel;
+
+        myEnemy = GameObject.FindGameObjectWithTag("Enemy");//find enemy + enemy script
+        EnemyScript enemyScript = myEnemy.GetComponent<EnemyScript>();
 
 
 
@@ -43,6 +47,8 @@ public class UpgradeMeleeOnClick : MonoBehaviour {
 
             myPlayer.GetComponent<PlayerXP>().MeleeLevel += 1f;
             myPlayer.GetComponent<PlayerXP>().CurrentXP -= 10f;
+
+            myEnemy.GetComponent<EnemyScript>().BulletDamage += 1f;
 
           //  playerScript.CurrentXP = xpPoints;
           //  playerScript.MeleeLevel = meleeLevel;
