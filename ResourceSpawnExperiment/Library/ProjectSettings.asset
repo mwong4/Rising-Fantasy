@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 00000000000000000000000000000000
+  productGUID: 4c8ccab86e417464294b502655beb857
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -649,7 +649,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: d2b6d3a5-d60f-4bdd-b3b2-10088a8548dc
-  projectName: Tower Defence
+  projectName: ResourceSpawnExperiment
   organizationId: rufino-r-ansara
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
