@@ -6,11 +6,11 @@ public class shooty : MonoBehaviour {
 
     public float speed;
 
-	Movement mov;
+	TurretMovement mov;
 
 	// Use this for initialization
 	void Start () {
-		mov = GameObject.FindGameObjectWithTag ("Player").GetComponent<Movement> ();
+		mov = GameObject.FindGameObjectWithTag ("Player").GetComponent<TurretMovement> ();
 	}
 	
 	// Update is called once per frame

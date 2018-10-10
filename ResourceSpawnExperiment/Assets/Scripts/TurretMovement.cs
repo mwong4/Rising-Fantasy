@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class TurretMovement : MonoBehaviour
 {
 
     public GameObject projectile;

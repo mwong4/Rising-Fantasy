@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\movement.cs" />
+     <Compile Include="Assets\PreFab\weaponn.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSoundSelector.cs" />
@@ -137,12 +139,13 @@
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\lookatmouse.cs" />
-     <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\NavAgentScript.cs" />
      <Compile Include="Assets\Scripts\NPCmove.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
      <Compile Include="Assets\Scripts\ResourceSpawnScript.cs" />
+     <Compile Include="Assets\Scripts\SHooting.cs" />
      <Compile Include="Assets\Scripts\shooty.cs" />
+     <Compile Include="Assets\Scripts\shootytt.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
      <Compile Include="Assets\Scripts\TestingInstantiation.cs" />
      <Compile Include="Assets\Scripts\TowerDefense\Affectors\Affector.cs" />
@@ -231,8 +234,10 @@
      <Compile Include="Assets\Scripts\TowerDefense\UI\ScorePanel.cs" />
      <Compile Include="Assets\Scripts\TowerDefense\UI\TowerDefenseInputSchemeSwitcher.cs" />
      <Compile Include="Assets\Scripts\TowerDefense\UI\UrlOpen.cs" />
+     <Compile Include="Assets\Scripts\TurretMovement.cs" />
      <Compile Include="Assets\Scripts\UpgradeMeleeOnClick.cs" />
      <Compile Include="Assets\Scripts\UpgradeRangedOnClick.cs" />
+     <Compile Include="Assets\Scripts\weapon.cs" />
      <Compile Include="Assets\Tower Defense Template\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\Tower Defense Template\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\Tower Defense Template\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />

@@ -6,15 +6,12 @@ using UnityEngine.AI;
 public class NavAgentScript : MonoBehaviour {
 
     public Transform target;
-    NavMeshAgent agent = null;
-
+    NavMeshAgent agent;
 
 	// Use this for initialization
 	void Start () 
     {
-        agent = GetComponent<NavMeshAgent>();
-
-		target = GameObject.FindGameObjectWithTag ("Destination").transform;
+        agent = GetComponent<NavMeshAgent>();	
 	}
 	
 	// Update is called once per frame
