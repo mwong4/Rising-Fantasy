@@ -142,6 +142,7 @@
      <Compile Include="Assets\Scripts\NavAgentScript.cs" />
      <Compile Include="Assets\Scripts\NPCmove.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
+     <Compile Include="Assets\Scripts\ResourceCollisionDetector.cs" />
      <Compile Include="Assets\Scripts\ResourceSpawnScript.cs" />
      <Compile Include="Assets\Scripts\SHooting.cs" />
      <Compile Include="Assets\Scripts\shooty.cs" />

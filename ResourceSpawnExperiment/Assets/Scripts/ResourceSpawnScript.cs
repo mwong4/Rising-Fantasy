@@ -39,12 +39,12 @@ public class ResourceSpawnScript : MonoBehaviour {
         if (ResourceCount < ResourceLimit && CurrentTime > SetDelay)
         {
             CurrentTime = 0f;
-            Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 1, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+            Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 2, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
         }
 
         //Debug.Log("ResourceObjects: " + ResourceCount);
 
-        ResourceCount = GameObject.FindGameObjectsWithTag("ResourceObject").Length;
+        ResourceCount = GameObject.FindGameObjectsWithTag("RawWoodResource").Length;
 
 
 

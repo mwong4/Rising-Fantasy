@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Turret.unity
+- path: Assets/Scenes/CombineScene2.unity
   isLoaded: 1
   isActive: 1
