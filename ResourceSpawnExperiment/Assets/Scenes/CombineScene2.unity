@@ -188,7 +188,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4418655445655544, guid: d6a5f2521dda74828847e46aa725f4ff, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -47.9
       objectReference: {fileID: 0}
     - target: {fileID: 4418655445655544, guid: d6a5f2521dda74828847e46aa725f4ff, type: 2}
       propertyPath: m_LocalPosition.y
@@ -239,12 +239,32 @@ Prefab:
     - target: {fileID: 114752826389906294, guid: d6a5f2521dda74828847e46aa725f4ff,
         type: 2}
       propertyPath: SetDelay
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 114752826389906294, guid: d6a5f2521dda74828847e46aa725f4ff,
         type: 2}
       propertyPath: ResourceLimit
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752826389906294, guid: d6a5f2521dda74828847e46aa725f4ff,
+        type: 2}
+      propertyPath: SpawnRangeMinX
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752826389906294, guid: d6a5f2521dda74828847e46aa725f4ff,
+        type: 2}
+      propertyPath: SpawnRangeMinZ
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752826389906294, guid: d6a5f2521dda74828847e46aa725f4ff,
+        type: 2}
+      propertyPath: SpawnRangeMaxX
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752826389906294, guid: d6a5f2521dda74828847e46aa725f4ff,
+        type: 2}
+      propertyPath: SpawnRangeMaxZ
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6a5f2521dda74828847e46aa725f4ff, type: 2}
