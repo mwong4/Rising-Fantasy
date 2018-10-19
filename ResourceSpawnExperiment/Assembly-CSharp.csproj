@@ -149,6 +149,7 @@
      <Compile Include="Assets\Scripts\shootytt.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
      <Compile Include="Assets\Scripts\TestingInstantiation.cs" />
+     <Compile Include="Assets\Scripts\TimeSystem.cs" />
      <Compile Include="Assets\Scripts\TowerDefense\Affectors\Affector.cs" />
      <Compile Include="Assets\Scripts\TowerDefense\Affectors\AttackAffector.cs" />
      <Compile Include="Assets\Scripts\TowerDefense\Affectors\CurrencyAffector.cs" />
