@@ -1064,11 +1064,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 0
   TimeChange: 1
+  PhaseIncreasePercent: 10
   BuildingPhase: 100
   CollectingPhase: 200
   SpawningPhase: 300
   BattlingPhase: 400
   EndCycle: 500
+  CurrentPhase: 0
 --- !u!1001 &1864850716
 Prefab:
   m_ObjectHideFlags: 0
