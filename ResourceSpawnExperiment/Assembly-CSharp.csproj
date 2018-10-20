@@ -66,7 +66,7 @@
      <None Include="Assets\Robo2\Animations\Robo2 animations list.txt" />
      <None Include="Assets\Robo3\Animations\Robo3 animations list.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/blairmaranda/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/rufinoansara/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
