@@ -7,7 +7,12 @@ public class PickupC : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+
+       //rigidbody.detectionCollision = false;
+        GetComponent<Rigidbody>().useGravity = false;
+
+       // onhand = GameObject.FindGameObjectWithTag("OnHandPosition").position; 
+
 	}
 	
 	// Update is called once per frame
@@ -18,8 +23,9 @@ public class PickupC : MonoBehaviour {
 	void OnMouseDown()
 	{
 		GetComponent<Rigidbody>().useGravity = false;
+       // rigidbody.detectionCollision = true;
 		this.transform.position = onhand.position;
-		this.transform.parent = GameObject.Find("ThirdPersonController").transform;
+		this.transform.parent = GameObject.FindWithTag("Player").transform;
 		this.transform.parent = GameObject.Find("EthanSkeleton").transform;
 	}
 
@@ -27,5 +33,6 @@ public class PickupC : MonoBehaviour {
 	{
 		transform.parent = null;
 		GetComponent<Rigidbody>().useGravity = true;
+       // rigidbody.detectionCollision = true;
 	}
 }
