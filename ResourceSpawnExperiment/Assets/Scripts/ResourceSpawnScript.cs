@@ -20,6 +20,8 @@ public class ResourceSpawnScript : MonoBehaviour {
     public float SpawnRangeMaxX;
     public float SpawnRangeMaxZ;
 
+    public bool collectionPhase;
+
 
 
 	// Use this for initialization
@@ -39,7 +41,10 @@ public class ResourceSpawnScript : MonoBehaviour {
         if (ResourceCount < ResourceLimit && CurrentTime > SetDelay)
         {
             CurrentTime = 0f;
-            Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 2, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+            if (collectionPhase == true)
+            {
+                Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 2, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+            }
         }
 
         //Debug.Log("ResourceObjects: " + ResourceCount);

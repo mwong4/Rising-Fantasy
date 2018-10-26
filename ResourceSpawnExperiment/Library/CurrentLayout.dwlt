@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 563}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 1
-  controlID: 160
+  controlID: 26
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,9 +394,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 14fbffff
-    m_LastClickedID: -1260
-    m_ExpandedIDs: 88fbffff00000000dc390000
+    m_SelectedIDs: 9ac5ffff
+    m_LastClickedID: -14950
+    m_ExpandedIDs: ecfaffff88fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -492,19 +492,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Tower Defense Template
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Tower Defense Template
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/maxwong/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e82b0000
-    m_LastClickedID: 11240
-    m_ExpandedIDs: 000000004e2b000000ca9a3bffffff7f
+    m_SelectedIDs: a62c0000
+    m_LastClickedID: 11430
+    m_ExpandedIDs: 000000004c2b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e2b0000
+    m_ExpandedIDs: 000000004c2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -584,7 +584,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 276.5}
+    m_ScrollPosition: {x: 0, y: 88}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &19
@@ -692,14 +692,14 @@ MonoBehaviour:
     height: 359
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1132.552122950554
+  lastFramingTime: 40.69064903259277
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.0474079, y: 19.544214, z: 52.58565}
+    m_Target: {x: 30.617313, y: -26.336285, z: 11.662273}
     speed: 2
-    m_Value: {x: -1.0474079, y: 19.544214, z: 52.58565}
+    m_Value: {x: 30.617313, y: -26.336285, z: 11.662273}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -723,13 +723,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0063150954, y: 0.9442028, z: -0.3288046, w: 0.018134328}
+    m_Target: {x: 0.13381612, y: 0.853947, z: -0.26893777, w: 0.4249004}
     speed: 2
-    m_Value: {x: 0.0063150954, y: 0.9442028, z: -0.3288046, w: 0.018134328}
+    m_Value: {x: 0.13381612, y: 0.853947, z: -0.26893777, w: 0.4249004}
   m_Size:
-    m_Target: 12.64593
+    m_Target: 87.75605
     speed: 2
-    m_Value: 12.64593
+    m_Value: 87.75605
   m_Ortho:
     m_Target: 0
     speed: 2

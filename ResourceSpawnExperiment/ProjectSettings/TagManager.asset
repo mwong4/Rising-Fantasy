@@ -13,6 +13,8 @@ TagManager:
   - Crosshair
   - RawWoodResource
   - OnHandPosition
+  - ResourceSpawning
+  - EnemySpawning
   layers:
   - Default
   - TransparentFX
