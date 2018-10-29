@@ -15,6 +15,10 @@ public class TimeSystem : MonoBehaviour {
     public float BattlingPhase;
     public float EndCycle;
 
+    //Objects
+  //  public GameObject ResourceSpawnSystem;
+  //  public ResourceSpawningScript resourceSpawningScript;
+
     public float CurrentPhase;
 
     int EnemyCount;
@@ -24,6 +28,9 @@ public class TimeSystem : MonoBehaviour {
 
         currentTime = 0f;
         CurrentPhase = 1f;
+
+       // GameObject ResourceSpawnSystem = GameObject.FindGameObjectWithTag("ResourceSpawning");// Get resource script
+       // resourceSpawningScript = ResourceSpawnSystem.GetComponent<ResourceSpawnScript>();
 
 		
 	}
@@ -46,7 +53,7 @@ public class TimeSystem : MonoBehaviour {
         {
             CurrentPhase = 3f;
 
-            //do something
+            CollectionPhase();
         }
 
         if (SpawningPhase < currentTime && CurrentPhase == 3)
@@ -89,4 +96,9 @@ public class TimeSystem : MonoBehaviour {
         }
 		
 	}
+
+    void CollectionPhase () {
+
+
+    }
 }
