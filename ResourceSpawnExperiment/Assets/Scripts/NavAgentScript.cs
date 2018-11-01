@@ -17,6 +17,6 @@ public class NavAgentScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        agent.SetDestination(target.position);
+		agent.destination = target.position;
 	}
 }

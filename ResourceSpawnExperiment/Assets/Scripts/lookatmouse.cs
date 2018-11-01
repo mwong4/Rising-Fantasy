@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class lookatmouse : MonoBehaviour {
 
-	Transform lookAt_;
+	Transform lookAt;
 
 	// Use this for initialization
 	void Start () {
-		lookAt_ = GameObject.FindGameObjectWithTag("Crosshair").GetComponent<Transform>();
+		lookAt = GameObject.FindGameObjectWithTag("Crosshair").GetComponent<Transform>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		transform.LookAt (lookAt_);
+		transform.LookAt (lookAt);
 	}
 }
