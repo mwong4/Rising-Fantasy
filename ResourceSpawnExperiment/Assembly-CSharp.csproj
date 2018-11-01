@@ -133,6 +133,7 @@
      <Compile Include="Assets\Scripts\Core\Utilities\Timer.cs" />
      <Compile Include="Assets\Scripts\Core\Utilities\VectorHelper.cs" />
      <Compile Include="Assets\Scripts\CraftingScript.cs" />
+     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Scripts\EnemyBehaviorScript.cs" />
      <Compile Include="Assets\Scripts\EnemyInteractions.cs" />
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
@@ -383,6 +384,12 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+     <None Include="Assets\Readme.txt" />
+     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+     <None Include="Assets\Robo1\Animations\Robo1 animations list.txt" />
+     <None Include="Assets\Robo2\Animations\Robo2 animations list.txt" />
+     <None Include="Assets\Robo3\Animations\Robo3 animations list.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
