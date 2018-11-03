@@ -4,23 +4,17 @@ using UnityEngine;
 
 public class movement : MonoBehaviour {
 
-	public float speed;
+	public float moveSpeed;
 
-	Rigidbody rb;
+
 
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody> ();
+		
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
-		
-		float horizontal = Input.GetAxis ("Horizontal");
-		float verticle = Input.GetAxis ("Vertical");
-
-		Vector3 movement = new Vector3 (horizontal, 0, verticle);
-
-		rb.AddForce (movement * speed / Time.deltaTime );
+	void Update () {
+		transform.Translate(moveSpeed*Input.GetAxis("Horizontal")*Time.deltaTime,0f,moveSpeed*Input.GetAxis("Vertical") * Time.deltaTime);
 	}
 }

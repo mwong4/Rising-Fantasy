@@ -12,7 +12,7 @@ public class TurretMovement : MonoBehaviour
     Vector3 lookPos;
 	public Vector3 endPoint; 
 
-	public float fireRate = 10f;
+	public float fireRate;
 	private float nextTimeToFire = 0f;
 
     // Use this for initialization
