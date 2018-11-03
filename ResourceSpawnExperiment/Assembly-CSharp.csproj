@@ -44,13 +44,14 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/Managed\UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\PreFab\weaponn.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
@@ -133,7 +134,6 @@
      <Compile Include="Assets\Scripts\Core\Utilities\Timer.cs" />
      <Compile Include="Assets\Scripts\Core\Utilities\VectorHelper.cs" />
      <Compile Include="Assets\Scripts\CraftingScript.cs" />
-     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Scripts\EnemyBehaviorScript.cs" />
      <Compile Include="Assets\Scripts\EnemyInteractions.cs" />
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
@@ -141,6 +141,9 @@
      <Compile Include="Assets\Scripts\lookatmouse.cs" />
      <Compile Include="Assets\Scripts\movement.cs" />
      <Compile Include="Assets\Scripts\NavAgentScript.cs" />
+     <Compile Include="Assets\Scripts\NewbJump.cs" />
+     <Compile Include="Assets\Scripts\NewJump.cs" />
+     <Compile Include="Assets\Scripts\NewMovement.cs" />
      <Compile Include="Assets\Scripts\NPCmove.cs" />
      <Compile Include="Assets\Scripts\PickupC.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
@@ -323,7 +326,9 @@
      <Compile Include="Assets\Tower Defense Template\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -345,8 +350,10 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\Uber.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\Robo1\Animations\Robo1 animations list.txt" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\FXAA3.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\MotionBlur.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
@@ -361,6 +368,7 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Robo2\Animations\Robo2 animations list.txt" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -382,49 +390,44 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\Robo3\Animations\Robo3 animations list.txt" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
-     <None Include="Assets\Readme.txt" />
-     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
-     <None Include="Assets\Robo1\Animations\Robo1 animations list.txt" />
-     <None Include="Assets\Robo2\Animations\Robo2 animations list.txt" />
-     <None Include="Assets\Robo3\Animations\Robo3 animations list.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/jus/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Timeline">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UIAutomation">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/jus/Desktop/Unity_5/Unity_2017/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Editor">
- <HintPath>C:/Users/jus/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Runtime">
- <HintPath>C:/Users/jus/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
