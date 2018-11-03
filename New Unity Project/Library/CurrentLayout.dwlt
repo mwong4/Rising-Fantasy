@@ -108,10 +108,10 @@ MonoBehaviour:
     y: 30
     width: 1904
     height: 861
-  m_MinSize: {x: 917, y: 442}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 913, y: 442}
+  m_MaxSize: {x: 22008, y: 10021}
   vertical: 0
-  controlID: 5049
+  controlID: 12900
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 5170
+  controlID: 12855
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,9 +401,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.19521402, y: -0.05675343, z: 0.011316071, w: -0.9790518}
   m_Size:
-    m_Target: 693.644
+    m_Target: 786.76404
     speed: 2
-    m_Value: 693.644
+    m_Value: 786.76404
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -444,9 +444,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: fc060000
     m_LastClickedID: 0
-    m_ExpandedIDs: 04a0ffff4cfbffff00000000242c0000462c0000522c0000602c0000762c00008a2c00009c2c0000c82c0000
+    m_ExpandedIDs: ec6bffff7cfbffff00000000302b0000742b00008a2b0000942b00009e2b0000e62b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,20 +508,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Menu thing/Animation/MainMenu
+    - Assets/Menu thing/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Menu thing/Animation/MainMenu
+  - Assets/Menu thing/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\New Unity
     Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a02a0000
-    m_LastClickedID: 10912
-    m_ExpandedIDs: 00000000982a00009e2a0000022b0000422b00004c2b0000d82b0000fa2b000000ca9a3bffffff7f
+    m_SelectedIDs: ca290000
+    m_LastClickedID: 10698
+    m_ExpandedIDs: 000000008a29000090290000f4290000342a00003e2a0000ca2a0000ec2a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -549,7 +549,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000982a00009e2a0000022b0000422b00004c2b0000d82b0000fa2b000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000008a29000090290000f4290000342a00003e2a0000ca2a0000ec2a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,7 +577,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: fc2a000000000000
+    m_ExpandedInstanceIDs: fc2a0000902a000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
