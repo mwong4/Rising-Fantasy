@@ -41,3 +41,8 @@ C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Te
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.dll
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.pdb
+C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\TextMeshPro-2017.3-Editor.dll
+C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\TextMeshPro-2017.3-Runtime.dll
+C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEditor.UI.xml

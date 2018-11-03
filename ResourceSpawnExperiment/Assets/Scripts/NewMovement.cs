@@ -14,8 +14,10 @@ public class NewMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-		transform.Translate (moveSpeed * Input.GetAxis ("Horizontal") * Time.deltaTime, 0f, moveSpeed * Input.GetAxis ("vertical") * Time.deltaTime);
+		//if (Input.GetKey (KeyCode.W)) {
+			//Debug.Log("W is working");
+	//	}
+		transform.Translate (moveSpeed * Input.GetAxis ("Horizontal") * Time.deltaTime, 0f, moveSpeed * Input.GetAxis ("Vertical") * Time.deltaTime);
 		
 	}
 }

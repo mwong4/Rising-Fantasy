@@ -11,10 +11,11 @@ public class NewJump : MonoBehaviour {
 	void Start () {
 		
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Jump")) {
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			Debug.Log("Space Key Down");
 			GetComponent<Rigidbody> ().velocity = Vector3.up * jumpVelocity;
 		}
 		
