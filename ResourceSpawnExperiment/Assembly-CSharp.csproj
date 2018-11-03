@@ -51,7 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\attackscriptsword.cs" />
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+     <Compile Include="Assets\PlayerRotation.cs" />
      <Compile Include="Assets\PreFab\weaponn.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
@@ -245,6 +247,8 @@
      <Compile Include="Assets\Scripts\UpgradeMeleeOnClick.cs" />
      <Compile Include="Assets\Scripts\UpgradeRangedOnClick.cs" />
      <Compile Include="Assets\Scripts\weapon.cs" />
+     <Compile Include="Assets\Swordattack.cs" />
+     <Compile Include="Assets\swordControl.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -324,6 +328,7 @@
      <Compile Include="Assets\Tower Defense Template\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\Tower Defense Template\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\Tower Defense Template\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\WeaponSwitching.cs" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
