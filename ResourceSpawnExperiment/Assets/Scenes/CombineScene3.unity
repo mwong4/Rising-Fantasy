@@ -243,6 +243,11 @@ Prefab:
       value: 
       objectReference: {fileID: 1421449827402410, guid: cc4c342c8c45c42d8a1c2adb53d522ca,
         type: 2}
+    - target: {fileID: 114371859080732322, guid: c1065e01d46f74f489dbf85fe07e0870,
+        type: 2}
+      propertyPath: SetDelay
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1065e01d46f74f489dbf85fe07e0870, type: 2}
   m_IsPrefabParent: 0
