@@ -43,7 +43,7 @@ public class ResourceSpawnScript : MonoBehaviour {
             CurrentTime = 0f;
             if (collectionPhase == true)
             {
-                Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 2, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+                Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
             }
         }
 
