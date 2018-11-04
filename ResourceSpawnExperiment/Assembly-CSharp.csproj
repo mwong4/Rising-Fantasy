@@ -52,6 +52,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Menu thing\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\PreFab\weaponn.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
@@ -139,6 +150,7 @@
      <Compile Include="Assets\Scripts\EnemyInteractions.cs" />
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
      <Compile Include="Assets\Scripts\lookatmouse.cs" />
      <Compile Include="Assets\Scripts\movement.cs" />
      <Compile Include="Assets\Scripts\NavAgentScript.cs" />
@@ -150,6 +162,7 @@
      <Compile Include="Assets\Scripts\PickupC.cs" />
      <Compile Include="Assets\Scripts\PlayerRotation.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
+     <Compile Include="Assets\Scripts\QuitonClick.cs" />
      <Compile Include="Assets\Scripts\ResourceCollisionDetector.cs" />
      <Compile Include="Assets\Scripts\ResourceSpawnScript.cs" />
      <Compile Include="Assets\Scripts\SHooting.cs" />
@@ -355,6 +368,7 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\Menu thing\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
@@ -367,6 +381,7 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\Menu thing\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -385,6 +400,7 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\TAA.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\Menu thing\Materials\UI-Default-No-Alpha.shader" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />

@@ -673,6 +673,7 @@ GameObject:
   - component: {fileID: 532984513}
   - component: {fileID: 532984512}
   - component: {fileID: 532984511}
+  - component: {fileID: 532984514}
   m_Layer: 5
   m_Name: Menu Button
   m_TagString: Untagged
@@ -738,9 +739,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1334990058}
-        m_MethodName: LoadMenu
-        m_Mode: 1
+      - m_Target: {fileID: 532984514}
+        m_MethodName: LoadByIndex
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -784,6 +785,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 532984509}
+--- !u!114 &532984514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 532984509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e28210e33b18a14fbbbb4e70b814360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &575209252
 Prefab:
   m_ObjectHideFlags: 0
@@ -1610,6 +1622,7 @@ GameObject:
   - component: {fileID: 1542799352}
   - component: {fileID: 1542799351}
   - component: {fileID: 1542799350}
+  - component: {fileID: 1542799353}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -1675,8 +1688,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1334990058}
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 1542799353}
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1721,6 +1734,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1542799348}
+--- !u!114 &1542799353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542799348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d69513782e50b4d8ea85ef03b2b4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1639915518
 GameObject:
   m_ObjectHideFlags: 0

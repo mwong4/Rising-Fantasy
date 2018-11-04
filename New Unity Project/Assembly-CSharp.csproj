@@ -68,10 +68,7 @@
      <None Include="Assets\Menu thing\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Menu thing\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/rufinoansara/Documents/GitHub/Rising-Fantasy/New Unity Project/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/New Unity Project/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
