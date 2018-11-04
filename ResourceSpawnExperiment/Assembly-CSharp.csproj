@@ -146,6 +146,7 @@
      <Compile Include="Assets\Scripts\NewJump.cs" />
      <Compile Include="Assets\Scripts\NewMovement.cs" />
      <Compile Include="Assets\Scripts\NPCmove.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\PickupC.cs" />
      <Compile Include="Assets\Scripts\PlayerRotation.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
