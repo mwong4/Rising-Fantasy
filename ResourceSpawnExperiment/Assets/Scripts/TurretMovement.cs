@@ -15,9 +15,13 @@ public class TurretMovement : MonoBehaviour
 	public float fireRate = 10f;
 	private float nextTimeToFire = 0f;
 
+	public WeaponSwitching myWeaponSwitching;
+
     // Use this for initialization
     void Start()
     {
+
+		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
 
     }
 
@@ -48,8 +52,12 @@ public class TurretMovement : MonoBehaviour
 				endPoint = hit.point;
 			}
 
-			Instantiate (projectile, shotPoint.position, shotPoint.rotation);
-			nextTimeToFire = Time.time + 3f / fireRate;
+			if (myWeaponSwitching.selectedWeapon == 3) {
+
+				Instantiate (projectile, shotPoint.position, shotPoint.rotation);
+				nextTimeToFire = Time.time + 3f / fireRate;
+
+			}
            
         }
 
