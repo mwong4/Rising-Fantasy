@@ -30,7 +30,7 @@ public class Target : MonoBehaviour {
 		}
 
 		transform.position = loc;
-		transform.position = new Vector3 (transform.position.x,0.6f, transform.position.z);
+		transform.position = new Vector3 (transform.position.x,-30.23f, transform.position.z);
 
 	}
 }

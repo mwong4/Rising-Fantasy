@@ -16,7 +16,7 @@ public class TurretMovement : MonoBehaviour
 	public bool click;
 
 
-	public WeaponSwitching myWeaponSwitching;
+	WeaponSwitching myWeaponSwitching;
 
     // Use this for initialization
     void Start()
@@ -55,7 +55,7 @@ public class TurretMovement : MonoBehaviour
 			}
 
 			if (myWeaponSwitching.selectedWeapon == 3) {
-
+				canShoot = false;
 				Instantiate (projectile, shotPoint.position, shotPoint.rotation);
 				nextTimeToFire = Time.time + 3f / fireRate;
 

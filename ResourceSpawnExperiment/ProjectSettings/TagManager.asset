@@ -17,6 +17,7 @@ TagManager:
   - EnemySpawning
   - Phases
   - SelectWeapon
+  - Floor
   layers:
   - Default
   - TransparentFX

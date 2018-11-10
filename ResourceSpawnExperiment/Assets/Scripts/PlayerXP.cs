@@ -20,7 +20,7 @@ public class PlayerXP : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-             Debug.Log("Referenced points is: " + CurrentXP + " and Levels are: " + MeleeLevel + "  " + RangedLevel);
+          //   Debug.Log("Referenced points is: " + CurrentXP + " and Levels are: " + MeleeLevel + "  " + RangedLevel);
 
  //       Debug.Log("XP level" + CurrentXP);
 		
