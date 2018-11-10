@@ -17,18 +17,17 @@ public class proje : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		rb.velocity = new Vector3 (rb.velocity.x, speed / 1/2, rb.velocity.z);
+		rb.velocity = new Vector3 (rb.velocity.x, 10, rb.velocity.z);
 
-
+		transform.LookAt (mov.endPoint);
 
 		transform.position = Vector3.MoveTowards (transform.position, mov.endPoint, speed * Time.deltaTime);
-		Destroy (gameObject, 1f);
 
 	}
 	void OnCollisionEnter(Collision collision)
 	{
 		if (collision.gameObject.tag == "Floor") {
-
+			mov.canShoot = true;
 			Destroy (gameObject);
 		} else {
 			Destroy (gameObject, 0.2f);

@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class TurretMovement : MonoBehaviour
 {
-
-    public GameObject projectile;
-    public Transform shotPoint;
-	public bool click;
-
-    Vector3 lookPos;
+	Vector3 lookPos;
 	public Vector3 endPoint; 
 
 	public float fireRate;
 	private float nextTimeToFire = 0f;
+    public GameObject projectile;
+    public Transform shotPoint;
+	[HideInInspector]
+	public bool canShoot;
+	public bool click;
+
 
     // Use this for initialization
     void Start()
     {
-
+		canShoot = true;
     }
 
     // Update is called once per frame 
@@ -42,7 +43,7 @@ public class TurretMovement : MonoBehaviour
 
 
 
-		if (Input.GetMouseButton(0) && Time.time >= nextTimeToFire)
+		if (Input.GetMouseButton(0) && Time.time >= nextTimeToFire && canShoot == true)
         {
 			if (Physics.Raycast (ray, out hit)) {
 				endPoint = hit.point;
@@ -50,6 +51,7 @@ public class TurretMovement : MonoBehaviour
 
 			Instantiate (projectile, shotPoint.position, shotPoint.rotation);
 			nextTimeToFire = Time.time + 3f / fireRate;
+			canShoot = false;
            
         }
 
