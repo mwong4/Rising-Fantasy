@@ -1,18 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ResourceSpawnScript.cs">
-    <Files>
-      <File FileName="Assets\Scripts\TimeSystem.cs" Line="62" Column="10" />
-      <File FileName="Assets\Scripts\ResourceSpawnScript.cs" Line="25" Column="29" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TurretMovement.cs">
     <Files>
-      <File FileName="Assets\Scripts\TestingInstantiation.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemySpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\NavAgentScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\UpgradeMeleeOnClick.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\movement.cs" Line="21" Column="1" />
-      <File FileName="Assets\Scripts\TurretMovement.cs" Line="52" Column="69" />
-      <File FileName="Assets\proje.cs" Line="14" Column="35" />
+      <File FileName="Assets\Scripts\TimeSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ResourceSpawnScript.cs" Line="25" Column="29" />
+      <File FileName="Assets\Scripts\TurretMovement.cs" Line="55" Column="48" />
+      <File FileName="Assets\Scripts\WeaponSwitching.cs" Line="21" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

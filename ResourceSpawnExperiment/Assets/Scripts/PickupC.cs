@@ -6,14 +6,23 @@ public class PickupC : MonoBehaviour {
 	public Transform onhand;
     public Rigidbody rb;
 
+	public GameObject myLog;
+
 	// Use this for initialization
 	void Start () {
 
 
-        GetComponent<Rigidbody>().useGravity = false;
+        GetComponent<Rigidbody>().useGravity = true;
+		
+		//onhand = GameObject.FindWithTag("OnHandPosition");
+
         rb = GetComponent<Rigidbody>();
 
+
+	//myLog = GameObject.FindWithTag ("RefinedWoodResource");
+
         rb.isKinematic = true;
+		rb.detectCollisions = true;
      //   rb.detectCollisions = false;
 
 
@@ -28,23 +37,7 @@ public class PickupC : MonoBehaviour {
 	void OnMouseDown()
 	{
 
-        rb.isKinematic = true;
-        rb.detectCollisions = true;
-
-		GetComponent<Rigidbody>().useGravity = false;
-
-		this.transform.position = onhand.position;
-		this.transform.parent = GameObject.FindWithTag("Player").transform;
-		this.transform.parent = GameObject.Find("EthanSkeleton").transform;
+		Instantiate(myLog, this.transform.position, Quaternion.identity);
+		Destroy(this.gameObject);
 	}
-
-    void OnMouseUp()
-    {
-        transform.parent = null;
-        GetComponent<Rigidbody>().useGravity = true;
-        // rigidbody.detectionCollision = true;	}
-
-        rb.isKinematic = false;
-        rb.detectCollisions = true;
-    }
 }
