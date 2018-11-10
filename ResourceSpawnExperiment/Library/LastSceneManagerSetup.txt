@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/CombineScene3.unity
+- path: Assets/Scenes/Terrian Test Lee.unity
   isLoaded: 1
   isActive: 1

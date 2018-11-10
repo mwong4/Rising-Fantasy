@@ -63,6 +63,7 @@
      <Compile Include="Assets\Menu thing\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Menu thing\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Menu thing\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\proje.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSoundSelector.cs" />
@@ -161,11 +162,11 @@
      <Compile Include="Assets\Scripts\PickupC.cs" />
      <Compile Include="Assets\Scripts\PlayerRotation.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
+     <Compile Include="Assets\Scripts\Projectile_Script.cs" />
      <Compile Include="Assets\Scripts\QuitonClick.cs" />
      <Compile Include="Assets\Scripts\ResourceCollisionDetector.cs" />
      <Compile Include="Assets\Scripts\ResourceSpawnScript.cs" />
      <Compile Include="Assets\Scripts\SHooting.cs" />
-     <Compile Include="Assets\Scripts\shooty.cs" />
      <Compile Include="Assets\Scripts\shootytt.cs" />
      <Compile Include="Assets\Scripts\Sun.cs" />
      <Compile Include="Assets\Scripts\Swordattack.cs" />
@@ -418,9 +419,6 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/rufinoansara/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
