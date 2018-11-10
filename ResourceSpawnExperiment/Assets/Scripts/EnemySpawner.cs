@@ -26,9 +26,13 @@ public class EnemySpawner : MonoBehaviour {
 	public float SpawnRangeMaxX;
 	public float SpawnRangeMaxZ;
 
+	public TimeSystem myPhases;
+
 
 	// Use this for initialization
 	void Start () {
+
+		myPhases = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
 		
 	}
 	
@@ -41,11 +45,12 @@ public class EnemySpawner : MonoBehaviour {
 		{
 			CurrentTime += 0.01f;
 		}
-		if (ResourceCount < ResourceLimit && CurrentTime > SetDelay /*&& RandomSpawnRange <= RandomValue*/ )
+		if (ResourceCount < ResourceLimit && CurrentTime > SetDelay && myPhases.spawningPhase == true /*&& RandomSpawnRange <= RandomValue*/ )
 		{
 			CurrentTime = 0f;
+
 			Instantiate(Enemy, new Vector3(Random.Range(SpawnRangeMinX  , SpawnRangeMaxX), 3, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
-			Debug.Log ("spawning");
+			//Debug.Log ("spawning");
 		}
 
 		//Debug.Log("ResourceObjects: " + ResourceCount);

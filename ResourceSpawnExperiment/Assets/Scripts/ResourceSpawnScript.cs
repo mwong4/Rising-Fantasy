@@ -22,7 +22,7 @@ public class ResourceSpawnScript : MonoBehaviour {
 
     //public bool collectionPhase;
 
-	public GameObject myPhases;
+	public TimeSystem myPhases;
 
 
 
