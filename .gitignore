@@ -35,3 +35,14 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.dwlt
+ResourceSpawnExperiment/Library/CurrentLayout.dwlt
+*.csproj
+*.csproj
+*.csproj
+ResourceSpawnExperiment/Assembly-CSharp-firstpass.csproj
+*.csproj
+*.csproj
+ResourceSpawnExperiment/Assembly-CSharp-Editor.csproj
+ResourceSpawnExperiment/Assembly-CSharp-Editor.csproj
+ResourceSpawnExperiment/Assembly-CSharp.csproj
