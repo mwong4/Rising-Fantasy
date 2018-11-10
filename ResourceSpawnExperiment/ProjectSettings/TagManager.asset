@@ -15,6 +15,7 @@ TagManager:
   - OnHandPosition
   - ResourceSpawning
   - EnemySpawning
+  - Phases
   layers:
   - Default
   - TransparentFX

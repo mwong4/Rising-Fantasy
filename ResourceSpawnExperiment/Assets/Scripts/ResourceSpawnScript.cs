@@ -20,12 +20,16 @@ public class ResourceSpawnScript : MonoBehaviour {
     public float SpawnRangeMaxX;
     public float SpawnRangeMaxZ;
 
-    public bool collectionPhase;
+    //public bool collectionPhase;
+
+	public GameObject myPhases;
 
 
 
 	// Use this for initialization
 	void Start () {
+
+		myPhases = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
 
 
 		
@@ -41,7 +45,7 @@ public class ResourceSpawnScript : MonoBehaviour {
         if (ResourceCount < ResourceLimit && CurrentTime > SetDelay)
         {
             CurrentTime = 0f;
-            if (collectionPhase == true)
+            if (myPhases.collectionPhase == true)
             {
                 Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
             }

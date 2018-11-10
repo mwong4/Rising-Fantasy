@@ -23,6 +23,8 @@ public class TimeSystem : MonoBehaviour {
 
     int EnemyCount;
 
+	public bool collectionPhase;
+
 	// Use this for initialization
 	void Start () {
 
@@ -53,12 +55,14 @@ public class TimeSystem : MonoBehaviour {
         {
             CurrentPhase = 3f;
 
-            CollectionPhase();
+			collectionPhase = true;
         }
 
         if (SpawningPhase < currentTime && CurrentPhase == 3)
         {
             CurrentPhase = 4f;
+
+			collectionPhase = false;
 
             //do something
         }
@@ -96,9 +100,4 @@ public class TimeSystem : MonoBehaviour {
         }
 		
 	}
-
-    void CollectionPhase () {
-
-
-    }
 }

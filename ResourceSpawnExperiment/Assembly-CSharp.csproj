@@ -63,7 +63,6 @@
      <Compile Include="Assets\Menu thing\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Menu thing\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Menu thing\Scripts\TiltWindow.cs" />
-     <Compile Include="Assets\PreFab\weaponn.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSoundSelector.cs" />
@@ -264,6 +263,7 @@
      <Compile Include="Assets\Scripts\UpgradeMeleeOnClick.cs" />
      <Compile Include="Assets\Scripts\UpgradeRangedOnClick.cs" />
      <Compile Include="Assets\Scripts\weapon.cs" />
+     <Compile Include="Assets\Scripts\weaponn.cs" />
      <Compile Include="Assets\Scripts\WeaponSwitching.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
