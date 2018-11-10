@@ -16,10 +16,15 @@ public class TurretMovement : MonoBehaviour
 	public bool click;
 
 
+	public WeaponSwitching myWeaponSwitching;
+
     // Use this for initialization
     void Start()
     {
 		canShoot = true;
+
+		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
+
     }
 
     // Update is called once per frame 
@@ -49,9 +54,12 @@ public class TurretMovement : MonoBehaviour
 				endPoint = hit.point;
 			}
 
-			Instantiate (projectile, shotPoint.position, shotPoint.rotation);
-			nextTimeToFire = Time.time + 3f / fireRate;
-			canShoot = false;
+			if (myWeaponSwitching.selectedWeapon == 3) {
+
+				Instantiate (projectile, shotPoint.position, shotPoint.rotation);
+				nextTimeToFire = Time.time + 3f / fireRate;
+
+			}
            
         }
 

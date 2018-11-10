@@ -1008,6 +1008,11 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 1942413423}
+    - target: {fileID: 65671894362934334, guid: e835d8fdd3e834466b98d26c3bfe1d82,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e835d8fdd3e834466b98d26c3bfe1d82, type: 2}
   m_IsPrefabParent: 0
@@ -2236,6 +2241,10 @@ Prefab:
     - target: {fileID: 4202216099295416, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
       propertyPath: m_LocalPosition.x
       value: -2.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631889357525942, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
+      propertyPath: m_TagString
+      value: SelectWeapon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}

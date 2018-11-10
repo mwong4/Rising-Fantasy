@@ -16,6 +16,7 @@ TagManager:
   - ResourceSpawning
   - EnemySpawning
   - Phases
+  - SelectWeapon
   layers:
   - Default
   - TransparentFX
