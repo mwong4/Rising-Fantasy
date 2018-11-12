@@ -18,6 +18,10 @@ TagManager:
   - Phases
   - SelectWeapon
   - RefinedWoodResource
+  - RawWoodResourceTwo
+  - RawRockResource
+  - RawRockResourceTwo
+  - RawRockResourceThree
   layers:
   - Default
   - TransparentFX

@@ -4,23 +4,39 @@ using UnityEngine;
 
 public class ResourceSpawnScript : MonoBehaviour {
 
-    public GameObject Resource;
+	public GameObject TreeResource;
+	public GameObject TreeResourceTwo;
 
-    int ResourceCount;
-    public int ResourceLimit;
+	public GameObject RockResource;
+	public GameObject RockResourceTwo;
+	public GameObject RockResourceThree;
 
-    float CurrentTime;
-    public float SetDelay;
+	public int treeResourceCount;
+	public int treeTwoResourceCount;
 
-    //Min spawn range
-    public float SpawnRangeMinX;
-    public float SpawnRangeMinZ;
+	public int rockResourceCount;
+	public int rockTwoResourceCount;
+	public int rockThreeResourceCount;
 
-    //Max spawn range
-    public float SpawnRangeMaxX;
-    public float SpawnRangeMaxZ;
+	public int treeResourceLimit;
+	public int treeTwoResourceLimit;
 
-    //public bool collectionPhase;
+	public int rockResourceLimit;
+	public int rockTwoResourceLimit;
+	public int rockThreeResourceLimit;
+
+	float CurrentTime;
+	public float SetDelay;
+
+	//Min spawn range
+	public float SpawnRangeMinX;
+	public float SpawnRangeMinZ;
+
+	//Max spawn range
+	public float SpawnRangeMaxX;
+	public float SpawnRangeMaxZ;
+
+	//public bool collectionPhase;
 
 	public TimeSystem myPhases;
 
@@ -32,35 +48,52 @@ public class ResourceSpawnScript : MonoBehaviour {
 		myPhases = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
 
 
-		
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
-        if (ResourceCount < ResourceLimit && CurrentTime < SetDelay)
-        {
-            CurrentTime += 0.01f;
-        }
-        if (ResourceCount < ResourceLimit && CurrentTime > SetDelay)
-        {
-            CurrentTime = 0f;
-            if (myPhases.collectionPhase == true)
-            {
-                Instantiate(Resource, new Vector3(Random.Range(SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
-            }
-        }
+		if (treeResourceCount < treeResourceLimit && CurrentTime < SetDelay)
+		{
+			CurrentTime += 0.01f;
+		}
+		if (CurrentTime > SetDelay)
+		{
+			CurrentTime = 0f;
+			if (myPhases.collectionPhase == true)
+			{
 
-        //Debug.Log("ResourceObjects: " + ResourceCount);
+				Debug.Log ("spawning");
+				if (treeResourceCount < treeResourceLimit) {
+					Instantiate (TreeResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+				}
 
-        ResourceCount = GameObject.FindGameObjectsWithTag("RawWoodResource").Length;
+				if (treeTwoResourceCount < treeTwoResourceLimit) {
+					Instantiate (TreeResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+				}
 
+				if (rockResourceCount < rockResourceLimit) {
+					Instantiate (RockResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+				}
 
+				if (rockTwoResourceCount < rockTwoResourceLimit) {
+					Instantiate (RockResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+				}
 
+				if (rockThreeResourceCount < rockThreeResourceLimit) {
+					Instantiate (RockResourceThree, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+				}
+			}
+		}
 
+		//Debug.Log("ResourceObjects: " + ResourceCount);
 
+		treeResourceCount = GameObject.FindGameObjectsWithTag("RawWoodResource").Length;
+		treeTwoResourceCount = GameObject.FindGameObjectsWithTag("RawWoodResourceTwo").Length;
+		rockResourceCount = GameObject.FindGameObjectsWithTag("RawRockResource").Length;
+		rockTwoResourceCount = GameObject.FindGameObjectsWithTag("RawRockResourceTwo").Length;
+		rockThreeResourceCount = GameObject.FindGameObjectsWithTag("RawRockResourceThree").Length;
 
-
-		
 	}
 }
