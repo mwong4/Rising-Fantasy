@@ -66,23 +66,23 @@ public class ResourceSpawnScript : MonoBehaviour {
 
 				Debug.Log ("spawning");
 				if (treeResourceCount < treeResourceLimit) {
-					Instantiate (TreeResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (TreeResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 4, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 
 				if (treeTwoResourceCount < treeTwoResourceLimit) {
-					Instantiate (TreeResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (TreeResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 4, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 
 				if (rockResourceCount < rockResourceLimit) {
-					Instantiate (RockResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (RockResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 4, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 
 				if (rockTwoResourceCount < rockTwoResourceLimit) {
-					Instantiate (RockResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (RockResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 4, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 
 				if (rockThreeResourceCount < rockThreeResourceLimit) {
-					Instantiate (RockResourceThree, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (RockResourceThree, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 4, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 			}
 		}

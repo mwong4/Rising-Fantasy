@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 54783387833409936}
   - component: {fileID: 208287520781546656}
   - component: {fileID: 64294346431057572}
+  - component: {fileID: 114055257742660294}
   m_Layer: 0
   m_Name: rock
   m_TagString: RawRockResource
@@ -39,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1844990637972840}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6292475, y: 1.4990036, z: 3.896349}
+  m_LocalPosition: {x: 21.857113, y: 3.6329193, z: 33.524937}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
@@ -132,6 +133,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114055257742660294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1844990637972840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852eec231a0e1ab499739e5bc352aac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onhand: {fileID: 0}
+  rb: {fileID: 54783387833409936}
 --- !u!208 &208287520781546656
 NavMeshObstacle:
   m_ObjectHideFlags: 1

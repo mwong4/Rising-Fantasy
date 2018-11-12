@@ -161,6 +161,7 @@
      <Compile Include="Assets\Scripts\NPCmove.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\PickupC.cs" />
+     <Compile Include="Assets\Scripts\PickupR.cs" />
      <Compile Include="Assets\Scripts\PlayerRotation.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
      <Compile Include="Assets\Scripts\Projectile_Script.cs" />
