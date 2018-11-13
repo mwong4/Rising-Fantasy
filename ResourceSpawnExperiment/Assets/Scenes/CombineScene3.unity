@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTime: 0
-  TimeChange: 1
+  TimeChange: 0.1
   PhaseIncreasePercent: 1
   BuildingPhase: 100
   CollectingPhase: 200

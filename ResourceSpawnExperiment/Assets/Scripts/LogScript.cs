@@ -7,6 +7,10 @@ public class LogScript : MonoBehaviour {
 	public Transform onhand;
     public Rigidbody rb;
 
+	//referencing scripts
+	public WeaponSwitching myWeaponSwitching;
+	public TimeSystem myPhases;
+
 	//public GameObject myLog;
 	
 	bool mouseDown = false;
@@ -14,6 +18,11 @@ public class LogScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+		//referencing the phase
+		myPhases = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
+		//referencing the weapon selected
+		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
 
         rb = GetComponent<Rigidbody>();
 
@@ -45,14 +54,16 @@ public class LogScript : MonoBehaviour {
 		
 		void OnMouseDown()
 	{
+		if (myPhases.CurrentPhase == 1 && myWeaponSwitching.selectedWeapon == 0 || myPhases.CurrentPhase == 2 && myWeaponSwitching.selectedWeapon == 0) {
 
-		GetComponent<Rigidbody>().useGravity = false;
-		rb.isKinematic = true;
-		//this.transform.position = onhand.position;
-		//this.transform.parent = GameObject.FindWithTag("Player").transform;
-		//this.transform.parent = GameObject.Find("EthanSkeleton").transform;
+			GetComponent<Rigidbody> ().useGravity = false;
+			rb.isKinematic = true;
+			//this.transform.position = onhand.position;
+			//this.transform.parent = GameObject.FindWithTag("Player").transform;
+			//this.transform.parent = GameObject.Find("EthanSkeleton").transform;
 		
-		mouseDown = true;
+			mouseDown = true;
+		}
 	}
 
     void OnMouseUp()

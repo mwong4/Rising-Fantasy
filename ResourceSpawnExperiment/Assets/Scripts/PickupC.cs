@@ -8,8 +8,17 @@ public class PickupC : MonoBehaviour {
 
 	public GameObject myLog;
 
+	//referencing scripts
+	public WeaponSwitching myWeaponSwitching;
+	public TimeSystem myPhases;
+
 	// Use this for initialization
 	void Start () {
+		
+		//referencing the phase
+		myPhases = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
+		//referencing the weapon selected
+		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
 
 
         GetComponent<Rigidbody>().useGravity = true;
@@ -36,8 +45,10 @@ public class PickupC : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+		if (myPhases.CurrentPhase == 1 && myWeaponSwitching.selectedWeapon == 0 || myPhases.CurrentPhase == 2 && myWeaponSwitching.selectedWeapon == 0) {
 
-		Instantiate(myLog, this.transform.position, Quaternion.identity);
-		Destroy(this.gameObject);
+			Instantiate (myLog, this.transform.position, Quaternion.identity);
+			Destroy (this.gameObject);
+		}
 	}
 }

@@ -7,6 +7,10 @@ public class PickupR : MonoBehaviour {
 	public Transform onhand;
 	public Rigidbody rb;
 
+	//referencing scripts
+	public WeaponSwitching myWeaponSwitching;
+	public TimeSystem myPhases;
+
 	// Use this for initialization
 	void Start () {
 
@@ -20,6 +24,11 @@ public class PickupR : MonoBehaviour {
 		rb.detectCollisions = true;
 		//   rb.detectCollisions = false;
 
+		//referencing the phase
+		myPhases = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
+		//referencing the weapon selected
+		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
+
 
 
 	}
@@ -31,6 +40,7 @@ public class PickupR : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+		if((myPhases.CurrentPhase == 1 && myWeaponSwitching.selectedWeapon == 0) || (myPhases.CurrentPhase == 2 && myWeaponSwitching.selectedWeapon == 0)){
 
 		rb.isKinematic = true;
 		rb.detectCollisions = true;
@@ -40,6 +50,7 @@ public class PickupR : MonoBehaviour {
 		this.transform.position = onhand.position;
 		this.transform.parent = GameObject.FindWithTag("Player").transform;
 		this.transform.parent = GameObject.Find("EthanSkeleton").transform;
+		}
 	}
 
 	void OnMouseUp()
