@@ -17,7 +17,7 @@ public class proje : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		rb.velocity = new Vector3 (rb.velocity.x, 10, rb.velocity.z);
+		rb.velocity = new Vector3 (rb.velocity.x, 12, rb.velocity.z);
 
 		transform.LookAt (mov.endPoint);
 
