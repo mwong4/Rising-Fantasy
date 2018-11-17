@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366767, g: 0.4842733, b: 0.5645276, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667546, g: 0.48427135, b: 0.5645225, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -279,26 +279,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!1 &130031669 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1635113799633780, guid: e49be8146db1846ea9f41984f0f04e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 2036186535}
---- !u!114 &130031681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 130031669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0670a0c4e4b2be4bad0a7871a1424fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rangedLevel: 0
-  meleeLevel: 0
-  currentRangedXp: 0
-  currentMeleeXp: 0
 --- !u!1 &167480767
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,8 +303,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 167480767}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -40.267998}
-  m_LocalScale: {x: 0.0015, y: 0.00045, z: 0.089999996}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.03, y: 0.01, z: 0.06}
   m_Children:
   - {fileID: 949999741}
   m_Father: {fileID: 1334990062}
@@ -332,7 +312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451.11096, y: -207.4011}
+  m_AnchoredPosition: {x: 173, y: 170}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &217602347
@@ -413,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTime: 0
-  TimeChange: 0.1
+  TimeChange: 1
   PhaseIncreasePercent: 1
   BuildingPhase: 100
   CollectingPhase: 200
@@ -2555,31 +2535,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 4202216099295416, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 4202216099295416, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 4202216099295416, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -2.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 1631889357525942, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
-      propertyPath: m_TagString
-      value: SelectWeapon
-      objectReference: {fileID: 0}
-    - target: {fileID: 4041551972540282, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114603857993418704, guid: e49be8146db1846ea9f41984f0f04e97,
+    - target: {fileID: 114464710125098252, guid: e49be8146db1846ea9f41984f0f04e97,
         type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 446054000}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e49be8146db1846ea9f41984f0f04e97, type: 2}
   m_IsPrefabParent: 0

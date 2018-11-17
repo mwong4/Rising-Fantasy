@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 114310186099002806}
   m_Layer: 0
   m_Name: SelectWeapon
-  m_TagString: Untagged
+  m_TagString: SelectWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 114018651503724758}
   - component: {fileID: 114650487049327506}
   - component: {fileID: 114748777536428086}
+  - component: {fileID: 114464710125098252}
   m_Layer: 0
   m_Name: Playerp1
   m_TagString: Player
@@ -240,7 +241,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1444279147229700}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.05, y: 0, z: 0.917}
+  m_LocalPosition: {x: -2.03, y: 0.07, z: 0.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4177059036043044}
@@ -678,11 +679,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e7ec8b509a0eec46b856b1bdc0b3d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 1583257995185140, guid: 5fa03af3df1536d43bd7c36327cd434d, type: 2}
-  shotPoint: {fileID: 4202216099295416}
-  click: 0
   endPoint: {x: 0, y: 0, z: 0}
   fireRate: 10
+  projectile: {fileID: 1583257995185140, guid: 5fa03af3df1536d43bd7c36327cd434d, type: 2}
+  shotPoint: {fileID: 4202216099295416}
+  canShoot: 0
+  click: 0
+  myWeaponSwitching: {fileID: 0}
 --- !u!114 &114310186099002806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -695,13 +698,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedWeapon: 0
---- !u!114 &114603857993418704
+--- !u!114 &114464710125098252
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1635113799633780}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0670a0c4e4b2be4bad0a7871a1424fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangedLevel: 0
+  meleeLevel: 0
+  currentRangedXp: 0
+  currentMeleeXp: 0
+  experienceBar: {fileID: 0}
+  image: {fileID: 0}
+--- !u!114 &114603857993418704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1635113799633780}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9af2c73bc4fc444eac440b33ad5197c, type: 3}
   m_Name: 

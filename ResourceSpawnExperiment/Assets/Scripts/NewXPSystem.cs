@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NewXPSystem : MonoBehaviour {
 
@@ -26,14 +27,24 @@ public class NewXPSystem : MonoBehaviour {
 		currentRangedXp = 0;
 		currentMeleeXp = 0;
 
-		experienceBar = GameObject.FindWithTag ("ExperienceBar_Gameobject");
+		experienceBar = GameObject.FindWithTag ("ExperienceBar");
+
+		image.fillAmount = 0;
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		image.fillAmount = image.fillAmount*( currentRangedXp / 10 );
+
+	/*	if(Input.GetKey("space"))
+		{
+			currentRangedXp+=0.01f;
+		}*/
+
+		Debug.Log (currentRangedXp);
+
+		image.fillAmount = currentRangedXp/100;
 
 		if (currentRangedXp >= 100 ) {
 			currentRangedXp = currentRangedXp - 100f;
