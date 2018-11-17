@@ -11,11 +11,11 @@ public class TurretMovement : MonoBehaviour
 	private float nextTimeToFire = 0f;
     public GameObject projectile;
     public Transform shotPoint;
-	[HideInInspector]
 	public bool canShoot;
+	[HideInInspector]
 	public bool click;
 
-
+	[HideInInspector]
 	public WeaponSwitching myWeaponSwitching;
 
     // Use this for initialization
@@ -58,7 +58,7 @@ public class TurretMovement : MonoBehaviour
 
 				Instantiate (projectile, shotPoint.position, shotPoint.rotation);
 				nextTimeToFire = Time.time + 3f / fireRate;
-
+				canShoot = false;
 			}
            
         }
