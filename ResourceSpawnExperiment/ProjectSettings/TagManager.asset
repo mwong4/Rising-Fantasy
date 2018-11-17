@@ -22,6 +22,7 @@ TagManager:
   - RawRockResource
   - RawRockResourceTwo
   - RawRockResourceThree
+  - ExperienceBar
   layers:
   - Default
   - TransparentFX
