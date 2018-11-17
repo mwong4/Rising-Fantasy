@@ -344,11 +344,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da0f5e0cf594ff842b4710c540d262eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerTransform: {fileID: 336210065}
-  SmoothFactor: 1
-  LookAtPlayer: 0
-  RotateAroundPlayer: 1
-  RotationsSpeed: 5
+  turnSpeed: 4
+  distanceFromPlayer: 3
+  minDistance: 1
+  maxDistance: 10
+  zoomStep: 0.5
+  Player: {fileID: 336210065}
+  startingRotation: {x: 20, y: 0, z: 0}
 --- !u!1 &1637780250
 GameObject:
   m_ObjectHideFlags: 0

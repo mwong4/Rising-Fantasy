@@ -21,8 +21,8 @@ public class CameraFollow : MonoBehaviour {
 	void Start () {
 		_cameraOffset = transform.position - PlayerTransform.position;
 	}
-	
-	 //Update is called once per frame
+
+	//Update is called once per frame
 	void LateUpdate () {
 
 		if (RotateAroundPlayer) 
