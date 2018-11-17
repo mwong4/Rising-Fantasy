@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 54279426286743594}
   - component: {fileID: 208891234252474732}
   - component: {fileID: 195155435019318134}
+  - component: {fileID: 114835262449486444}
   m_Layer: 0
   m_Name: Playerp1
   m_TagString: Player
@@ -221,7 +222,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1123478143575582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.59, z: 0}
+  m_LocalPosition: {x: 139.04, y: 12.586542, z: -91.64456}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4303316414334260}
@@ -678,6 +679,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedWeapon: 0
+--- !u!114 &114835262449486444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363117868291230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0670a0c4e4b2be4bad0a7871a1424fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangedLevel: 0
+  meleeLevel: 0
+  currentRangedXp: 0
+  currentMeleeXp: 0
+  experienceBar: {fileID: 0}
+  image: {fileID: 0}
 --- !u!114 &114963879201650336
 MonoBehaviour:
   m_ObjectHideFlags: 1
