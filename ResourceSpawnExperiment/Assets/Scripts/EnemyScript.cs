@@ -14,7 +14,12 @@ public class EnemyScript : MonoBehaviour {
 	public GameObject turnOnBar;
 	public Image image;
 
-	GameObject myPlayer;
+	public NewXPSystem myNewXpSystem;
+
+
+	//variables for the XP system
+	GameObject myPlayer; //referenced script
+	public float xpGained; //experienced gained each time an enemy dies
 
 
 	// Use this for initialization
@@ -23,8 +28,11 @@ public class EnemyScript : MonoBehaviour {
 		turnOnBar = GameObject.Find ("HealthBar_Gameobject");
 		turnOnBar.SetActive (false);
 
-        myPlayer = GameObject.FindGameObjectWithTag("Player");// Get XP Script and xpPoints value
-        PlayerXP playerScript = myPlayer.GetComponent<PlayerXP>();
+        //myPlayer = GameObject.FindGameObjectWithTag("Player");// Get XP Script and xpPoints value
+        //PlayerXP playerScript = myPlayer.GetComponent<PlayerXP>();
+
+		//referencing the newPlayerXpScript
+		myNewXpSystem = GameObject.FindWithTag ("Player").GetComponent<NewXPSystem> ();
 
 	}
 	
@@ -40,11 +48,16 @@ public class EnemyScript : MonoBehaviour {
 	{
 		if (collision.gameObject.tag == "Projectile") {
 
+			//if the enemy is shot, increase XP for ranged
+			myNewXpSystem.currentRangedXp += xpGained;
+
 			health = health - BulletDamage;
+
+			turnOnBar.SetActive (true);
 			
 			image.fillAmount = image.fillAmount - BulletDamage / 10;
 
-			turnOnBar.SetActive (true);
+
 		}
 	} 
 
@@ -52,6 +65,8 @@ public class EnemyScript : MonoBehaviour {
         //myPlayer.GetComponent<PlayerXP>().CurrentXP += 10f;
         
         //Justin, Right here, you should instantiate the particle effect instead -Max
+
+
 
 		Destroy (this.gameObject);
 		Instantiate (enemyDeath, transform.position, Quaternion.identity);

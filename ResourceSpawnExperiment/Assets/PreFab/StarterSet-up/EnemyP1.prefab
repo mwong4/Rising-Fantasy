@@ -257,6 +257,8 @@ MonoBehaviour:
   enemyDeath: {fileID: 198649731177404054}
   turnOnBar: {fileID: 0}
   image: {fileID: 114185065458457642}
+  myNewXpSystem: {fileID: 0}
+  xpGained: 10
 --- !u!114 &114925244678230000
 MonoBehaviour:
   m_ObjectHideFlags: 1
