@@ -58,7 +58,7 @@ public class TurretMovement : MonoBehaviour
 
 				Instantiate (projectile, shotPoint.position, shotPoint.rotation);
 				nextTimeToFire = Time.time + 3f / fireRate;
-
+				canShoot = false;
 			}
            
         }

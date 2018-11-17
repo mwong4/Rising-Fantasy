@@ -63,6 +63,7 @@
      <Compile Include="Assets\Menu thing\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Menu thing\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Menu thing\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Player_Health.cs" />
      <Compile Include="Assets\proje.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />

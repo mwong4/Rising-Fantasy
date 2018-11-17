@@ -17,7 +17,7 @@ public class proje : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		rb.velocity = new Vector3 (rb.velocity.x, 10, rb.velocity.z);
+		rb.velocity = new Vector3 (rb.velocity.x, 15, rb.velocity.z);
 
 		transform.LookAt (mov.endPoint);
 
@@ -29,7 +29,11 @@ public class proje : MonoBehaviour {
 		if (collision.gameObject.tag == "Floor") {
 			mov.canShoot = true;
 			Destroy (gameObject);
-		} else {
+		} 
+		if (collision.gameObject.tag == "Enemy") {
+			mov.canShoot = true;
+			Destroy (gameObject);
+		}else {
 			Destroy (gameObject, 0.2f);
 		}
 

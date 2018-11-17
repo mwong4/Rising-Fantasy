@@ -22,6 +22,8 @@ TagManager:
   - RawRockResource
   - RawRockResourceTwo
   - RawRockResourceThree
+  - Floor
+  - Player_HealthBar
   layers:
   - Default
   - TransparentFX
