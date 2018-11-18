@@ -65,4 +65,10 @@ public class TurretMovement : MonoBehaviour
 
     }
 
+	void OnCollisionEnter (Collision col){
+		if (col.gameObject.tag == "floor" && canShoot == false) {
+			canShoot = true;
+		}
+	}
+
 }
