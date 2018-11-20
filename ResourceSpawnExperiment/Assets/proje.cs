@@ -29,7 +29,18 @@ public class proje : MonoBehaviour {
 		if (collision.gameObject.tag == "Floor") {
 			mov.canShoot = true;
 			Destroy (gameObject);
-		} else {
+		} 
+		if (collision.gameObject.tag == "Enemy") {
+			mov.canShoot = true;
+			Destroy (gameObject);
+		} 
+
+		if (collision.gameObject.tag == "Crosshair") {
+			mov.canShoot = true;
+			Destroy (gameObject);
+		} 
+
+		else {
 			Destroy (gameObject, 0.2f);
 		}
 

@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TurretMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyScript.cs">
     <Files>
       <File FileName="Assets\Scripts\TimeSystem.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ResourceSpawnScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TurretMovement.cs" Line="49" Column="3" />
+      <File FileName="Assets\Scripts\TurretMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\WeaponSwitching.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PickupR.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PickupC.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LogScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\proje.cs" Line="20" Column="47" />
+      <File FileName="Assets\proje.cs" Line="33" Column="41" />
+      <File FileName="Assets\Scripts\EnemyScript.cs" Line="42" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

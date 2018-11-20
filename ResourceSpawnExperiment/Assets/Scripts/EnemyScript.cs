@@ -7,7 +7,7 @@ public class EnemyScript : MonoBehaviour {
 
 	public float speed;
 	public float health;
-	private float curHealth;
+	private float fHealth;
     public float BulletDamage;
 
 	public GameObject enemyDeath;
@@ -24,7 +24,7 @@ public class EnemyScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		curHealth = health;
+		fHealth = health;
 		turnOnBar = GameObject.Find ("HealthBar_Gameobject");
 		turnOnBar.SetActive (false);
 
@@ -39,6 +39,8 @@ public class EnemyScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		image.fillAmount = health / fHealth;
+
 		if (health <= 0) {
 			CommitDie ();
 		}
@@ -49,13 +51,11 @@ public class EnemyScript : MonoBehaviour {
 		if (collision.gameObject.tag == "Projectile") {
 
 			//if the enemy is shot, increase XP for ranged
-			myNewXpSystem.currentRangedXp += xpGained;
+			//myNewXpSystem.currentRangedXp += xpGained;
 
 			health = health - BulletDamage;
 
 			turnOnBar.SetActive (true);
-			
-			image.fillAmount = image.fillAmount - BulletDamage / 10;
 
 
 		}
