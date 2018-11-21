@@ -16,10 +16,13 @@ public class TurretPlacement : MonoBehaviour {
 	public bool lockingPosition;
 	public bool delayActive;
 
+	public WeaponSwitching myWeaponSwitching;
+
 
 	// Use this for initialization
 	void Start () {
-		
+
+		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
 
 		//referencing and setting "myPlayer" as the player's transform
 		myPlayerTransform = GameObject.FindWithTag ("Player").transform;
@@ -38,7 +41,7 @@ public class TurretPlacement : MonoBehaviour {
 		distanceFromPlayer = Vector3.Distance (myPlayerTransform.position, transform.position);
 
 		/*Checking to see if the distance is close enough to lock*/
-		if (distanceFromPlayer <= lockRadius && lockingPosition == false) {
+		if (distanceFromPlayer <= lockRadius && lockingPosition == false && myWeaponSwitching.selectedWeapon == 0) {
 
 				lockingPosition = true;//Lock Player onto the platform's transform
 				delayActive = true;
