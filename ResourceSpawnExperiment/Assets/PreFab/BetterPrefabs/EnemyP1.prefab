@@ -209,6 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  destination: {fileID: 0}
 --- !u!114 &114179151207935410
 MonoBehaviour:
   m_ObjectHideFlags: 1

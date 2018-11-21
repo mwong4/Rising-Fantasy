@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class NavAgentScript : MonoBehaviour {
 
     public Transform target;
+	public GameObject destination;
     NavMeshAgent agent;
 
 	// Use this for initialization
@@ -13,7 +14,10 @@ public class NavAgentScript : MonoBehaviour {
     {
         agent = GetComponent<NavMeshAgent>();	
 
-		//target = GameObject.FindWithTag ("Destination").Transform ();
+//		destination = GameObject.FindWithTag ("Destination")();
+//		target = destination.transform;
+
+		Debug.Log (target);
 	}
 	
 	// Update is called once per frame
