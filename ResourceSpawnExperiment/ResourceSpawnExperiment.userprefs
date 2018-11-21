@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\copll.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NavAgentScript.cs">
     <Files>
-      <File FileName="Assets\copll.cs" Line="43" Column="40" />
+      <File FileName="Assets\copll.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\movement.cs" Line="1" Column="1" />
       <File FileName="Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\NavAgentScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NavAgentScript.cs" Line="16" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
