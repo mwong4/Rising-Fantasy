@@ -10,19 +10,21 @@ public class CameraRotatoe : MonoBehaviour {
 	public float rDistance = 1.0f;
 	public float rSpeed = 1.0f;
 	//new rules
-	public Transform target;
-	//public float smoothSpeed = 0.125f;		just extra
-	public Vector3 offset;
+	//public Transform target;
+	//public float smoothSpeed = 0.125f;
+	//public Vector3 offset;
 
 	// Update is called once per frame
+
+
 	void Update()
 	{
-
+		//                 transform.LookAt (targetObject);
 		// Trigger functions if Rotate is requested
 		if (Input.GetKeyDown(KeyCode.Q)) {
-			targetAngle -= 90.0f;
+			targetAngle -= 45.0f;
 		} else if (Input.GetKeyDown(KeyCode.E)) {
-			targetAngle += 90.0f;
+			targetAngle += 45.0f;
 		}
 
 		if(targetAngle !=0)
@@ -52,6 +54,7 @@ public class CameraRotatoe : MonoBehaviour {
 
 	}
 }
+
 
 
 //link...
