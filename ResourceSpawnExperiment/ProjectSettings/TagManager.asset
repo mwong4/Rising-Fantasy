@@ -25,6 +25,7 @@ TagManager:
   - ExperienceBar
   - floor
   - PlayerPrefab
+  - PhasesBar
   layers:
   - Default
   - TransparentFX

@@ -54,6 +54,8 @@ MonoBehaviour:
   currentTime: 0
   TimeChange: 1
   PhaseIncreasePercent: 1
+  currentChanged: 0
+  myPhasesText: {fileID: 0}
   BuildingPhase: 100
   CollectingPhase: 200
   SpawningPhase: 300
@@ -62,3 +64,5 @@ MonoBehaviour:
   CurrentPhase: 0
   collectionPhase: 0
   spawningPhase: 0
+  phasesBar: {fileID: 0}
+  image: {fileID: 0}

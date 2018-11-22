@@ -114,3 +114,4 @@ MonoBehaviour:
   myPlayerTransform: {fileID: 0}
   lockingPosition: 0
   delayActive: 0
+  myWeaponSwitching: {fileID: 0}
