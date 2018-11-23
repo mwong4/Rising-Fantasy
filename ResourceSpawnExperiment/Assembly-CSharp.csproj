@@ -90,6 +90,7 @@
      <Compile Include="Assets\Scripts\ActionGameFramework\Spawning\WeightedObject.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Spawning\WeightedObjectList.cs" />
      <Compile Include="Assets\Scripts\attackscriptsword.cs" />
+     <Compile Include="Assets\Scripts\CamShake.cs" />
      <Compile Include="Assets\Scripts\Core\Camera\CameraInitialState.cs" />
      <Compile Include="Assets\Scripts\Core\Camera\CameraRig.cs" />
      <Compile Include="Assets\Scripts\Core\Data\EncryptedJsonSaver.cs" />
@@ -163,6 +164,8 @@
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\PickupC.cs" />
      <Compile Include="Assets\Scripts\PickupR.cs" />
+     <Compile Include="Assets\Scripts\Player_Health.cs" />
+     <Compile Include="Assets\Scripts\PlayerHit.cs" />
      <Compile Include="Assets\Scripts\PlayerRotation.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
      <Compile Include="Assets\Scripts\Projectile_Script.cs" />

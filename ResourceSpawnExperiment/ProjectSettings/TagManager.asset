@@ -23,6 +23,8 @@ TagManager:
   - RawRockResourceTwo
   - RawRockResourceThree
   - ExperienceBar
+  - Floor
+  - ScreenShake
   layers:
   - Default
   - TransparentFX
@@ -40,8 +42,8 @@ TagManager:
   - EnemyProjectiles
   - FlyingEnemies
   - GroundEnemyTargettingProjectiles
-  - 
-  - 
+  - Graphic
+  - Player
   - 
   - 
   - 
