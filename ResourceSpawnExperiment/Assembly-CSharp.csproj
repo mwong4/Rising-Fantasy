@@ -63,7 +63,6 @@
      <Compile Include="Assets\Menu thing\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Menu thing\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Menu thing\Scripts\TiltWindow.cs" />
-     <Compile Include="Assets\proje.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeAudioSource.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSound.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Audio\HealthChangeSoundSelector.cs" />
@@ -90,6 +89,7 @@
      <Compile Include="Assets\Scripts\ActionGameFramework\Spawning\WeightedObject.cs" />
      <Compile Include="Assets\Scripts\ActionGameFramework\Spawning\WeightedObjectList.cs" />
      <Compile Include="Assets\Scripts\attackscriptsword.cs" />
+     <Compile Include="Assets\Scripts\copll.cs" />
      <Compile Include="Assets\Scripts\Core\Camera\CameraInitialState.cs" />
      <Compile Include="Assets\Scripts\Core\Camera\CameraRig.cs" />
      <Compile Include="Assets\Scripts\Core\Data\EncryptedJsonSaver.cs" />
@@ -165,6 +165,7 @@
      <Compile Include="Assets\Scripts\PickupR.cs" />
      <Compile Include="Assets\Scripts\PlayerRotation.cs" />
      <Compile Include="Assets\Scripts\PlayerXP.cs" />
+     <Compile Include="Assets\Scripts\proje.cs" />
      <Compile Include="Assets\Scripts\Projectile_Script.cs" />
      <Compile Include="Assets\Scripts\QuitonClick.cs" />
      <Compile Include="Assets\Scripts\ResourceCollisionDetector.cs" />
@@ -264,11 +265,18 @@
      <Compile Include="Assets\Scripts\TowerDefense\UI\TowerDefenseInputSchemeSwitcher.cs" />
      <Compile Include="Assets\Scripts\TowerDefense\UI\UrlOpen.cs" />
      <Compile Include="Assets\Scripts\TurretMovement.cs" />
+     <Compile Include="Assets\Scripts\TurretPlacement.cs" />
      <Compile Include="Assets\Scripts\UpgradeMeleeOnClick.cs" />
      <Compile Include="Assets\Scripts\UpgradeRangedOnClick.cs" />
      <Compile Include="Assets\Scripts\weapon.cs" />
      <Compile Include="Assets\Scripts\weaponn.cs" />
      <Compile Include="Assets\Scripts\WeaponSwitching.cs" />
+     <Compile Include="Assets\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
+     <Compile Include="Assets\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
+     <Compile Include="Assets\Sky FX Pack\Scripts\LookAtCameraBehaviour.cs" />
+     <Compile Include="Assets\Sky FX Pack\Scripts\RayBehavior.cs" />
+     <Compile Include="Assets\Sky FX Pack\Scripts\RotateBehaviour.cs" />
+     <Compile Include="Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -421,7 +429,7 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/rufinoansara/Documents/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -451,10 +459,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Editor">
- <HintPath>C:/Users/rufinoansara/Documents/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Runtime">
- <HintPath>C:/Users/rufinoansara/Documents/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

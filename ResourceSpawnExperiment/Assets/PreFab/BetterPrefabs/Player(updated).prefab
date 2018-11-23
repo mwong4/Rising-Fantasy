@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114302775976910418}
   m_Layer: 0
   m_Name: Player(updated)
-  m_TagString: Untagged
+  m_TagString: PlayerPrefab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,6 +53,21 @@ GameObject:
   m_Layer: 0
   m_Name: Destination
   m_TagString: Destination
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1325490286943578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4731902502198450}
+  m_Layer: 0
+  m_Name: OnHandPosition
+  m_TagString: OnHandPosition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +104,8 @@ GameObject:
   - component: {fileID: 114980734080839340}
   - component: {fileID: 54279426286743594}
   - component: {fileID: 208891234252474732}
-  - component: {fileID: 195155435019318134}
+  - component: {fileID: 114835262449486444}
+  - component: {fileID: 114233076497107936}
   m_Layer: 0
   m_Name: Playerp1
   m_TagString: Player
@@ -221,10 +237,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1123478143575582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.59, z: 0}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4303316414334260}
+  - {fileID: 4731902502198450}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -268,6 +285,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4921864525101190}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4731902502198450
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1325490286943578}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4135543321666480}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4747892331569216
 Transform:
@@ -654,6 +684,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 95711158135173756}
   attack1: 323
+--- !u!114 &114233076497107936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363117868291230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ea776898c3b5b47978dbc4bbe6947e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathP: {fileID: 1335831771527770, guid: 0568a7d94a2cd0d4ca6676355341fe27, type: 2}
+  spawnPoint: {fileID: 0}
+  currentTime: 0
+  delay: 10
+  respawning: 0
+  myMovement: {fileID: 0}
 --- !u!114 &114302775976910418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -666,6 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
+  moving: 0
 --- !u!114 &114746537767564254
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -678,6 +726,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedWeapon: 0
+--- !u!114 &114835262449486444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363117868291230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0670a0c4e4b2be4bad0a7871a1424fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangedLevel: 1
+  meleeLevel: 1
+  currentRangedXp: 0
+  currentMeleeXp: 0
+  experienceBar: {fileID: 0}
+  image: {fileID: 0}
 --- !u!114 &114963879201650336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -745,27 +810,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!195 &195155435019318134
-NavMeshAgent:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1363117868291230}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!208 &208891234252474732
 NavMeshObstacle:
   m_ObjectHideFlags: 1

@@ -23,6 +23,9 @@ TagManager:
   - RawRockResourceTwo
   - RawRockResourceThree
   - ExperienceBar
+  - floor
+  - PlayerPrefab
+  - PhasesBar
   layers:
   - Default
   - TransparentFX
