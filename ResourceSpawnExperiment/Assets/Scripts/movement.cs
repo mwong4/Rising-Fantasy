@@ -6,18 +6,36 @@ public class movement : MonoBehaviour {
 
 	public float moveSpeed;
 
-	public bool moving;
+	Player_Health ph;
+	Rigidbody rb;
+
+	private CamShake shake;
 
 	// Use this for initialization
 	void Start () {
-		moving = true;
-		
+		ph = GetComponentInChildren<Player_Health> ();
+		rb = GetComponent<Rigidbody> ();
+		shake = GameObject.FindGameObjectWithTag ("ScreenShake").GetComponent<CamShake> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (moving == true) {
-			transform.Translate (moveSpeed * Input.GetAxis ("Horizontal") * Time.deltaTime, 0f, moveSpeed * Input.GetAxis ("Vertical") * Time.deltaTime);
-		}
+
+		if (ph.hit == true) {
+			shake.CamShake_ ();
+
+			moveSpeed = -10;
+			StartCoroutine (Wait ());
+			} 
+
+
+		transform.Translate(moveSpeed*Input.GetAxis("Horizontal")*Time.deltaTime,0f,moveSpeed*Input.GetAxis("Vertical") * Time.deltaTime);
+	}
+	IEnumerator Wait()
+	{
+		
+		yield return new WaitForSeconds (0.6f);
+		moveSpeed = 8;
+
 	}
 }
