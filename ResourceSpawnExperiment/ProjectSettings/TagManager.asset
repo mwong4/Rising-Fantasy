@@ -27,6 +27,8 @@ TagManager:
   - PlayerPrefab
   - PhasesBar
   - StupidWalls
+  - ScreenShake
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -46,8 +48,8 @@ TagManager:
   - GroundEnemyTargettingProjectiles
   - IgnoreTheseWalls
   - IgnoreThisCircle
-  - 
-  - 
+  - Graphic
+  - Player
   - 
   - 
   - 

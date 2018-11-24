@@ -31,9 +31,9 @@ public class Target : MonoBehaviour {
 				loc = hit.point;
 			//}
 		}
-
-		transform.position = new Vector3 (loc.x,loc.y+0.6f,loc.z);
-		//transform.position = new Vector3 (transform.position.x,0.6f, transform.position.z);
+		transform.position = loc;
+		//transform.position = new Vector3 (loc.x,loc.y+0.6f,loc.z);
+		transform.position = new Vector3 (transform.position.x,loc.y+0.6f, transform.position.z);
 		
 	}
 }

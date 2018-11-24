@@ -1,16 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Target.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\copll.cs">
     <Files>
       <File FileName="Assets\Scripts\EnemyScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\NewXPSystem.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\copll.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\copll.cs" Line="30" Column="18" />
       <File FileName="Assets\Scripts\lookatmouse.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ResourceSpawnScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\NavAgentScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\proje.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Target.cs" Line="32" Column="6" />
-      <File FileName="Assets\Scripts\CameraFollow.cs" Line="14" Column="82" />
+      <File FileName="Assets\Scripts\Target.cs" Line="36" Column="59" />
+      <File FileName="Assets\Scripts\CameraFollow.cs" Line="14" Column="60" />
+      <File FileName="Assets\Scripts\movement.cs" Line="23" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

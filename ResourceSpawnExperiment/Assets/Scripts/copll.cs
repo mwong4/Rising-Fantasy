@@ -11,10 +11,12 @@ public class copll : MonoBehaviour {
 	public float currentTime;
 	public float delay;
 
+
 	public bool respawning;
 
 	public movement myMovement;
 
+	public Player_Health ph;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +28,13 @@ public class copll : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
+		if (ph.health <= 0) {
+			CommitDeath ();
+			DisableMovement();
+			respawning = true;
+
+		}
 
 		if (respawning == true) {
 			currentTime += 1;
@@ -40,14 +49,11 @@ public class copll : MonoBehaviour {
 
 	}
 
-	void OnCollisionEnter (Collision col){
-		if (col.gameObject.tag == "Enemy") {
-			CommitDeath ();
-			DisableMovement();
-			respawning = true;
 
-		}
-	}
+
+
+		
+	
 
 	void CommitDeath() {
 		Instantiate (deathP, transform.position, Quaternion.identity);
@@ -58,11 +64,11 @@ public class copll : MonoBehaviour {
 	}
 
 	void DisableMovement() {
-		myMovement.moving = false;
+		myMovement.moveSpeed = 0;
 	}
 
 	void EnableMovement() {
-		myMovement.moving = true;
+		myMovement.moveSpeed = 8;
 	}
 
 }
