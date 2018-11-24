@@ -39,6 +39,8 @@ public class EnemyScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		image.fillAmount = health / curHealth;
+
 		if (health <= 0) {
 			CommitDie ();
 		}
@@ -54,8 +56,7 @@ public class EnemyScript : MonoBehaviour {
 			health = health - BulletDamage;
 
 			turnOnBar.SetActive (true);
-			
-			image.fillAmount = image.fillAmount - BulletDamage / 10;
+
 
 
 		}

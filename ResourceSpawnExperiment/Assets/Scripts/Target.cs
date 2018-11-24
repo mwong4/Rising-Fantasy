@@ -23,14 +23,17 @@ public class Target : MonoBehaviour {
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
 
+
+
 		if (Physics.Raycast(ray, out hit))
 		{
-			loc = hit.point;
-
+			//if (!hit.transform.gameObject.CompareTag ("StupidWalls")) {
+				loc = hit.point;
+			//}
 		}
 
-		transform.position = loc;
-		transform.position = new Vector3 (transform.position.x,0.6f, transform.position.z);
-
+		transform.position = new Vector3 (loc.x,loc.y+0.6f,loc.z);
+		//transform.position = new Vector3 (transform.position.x,0.6f, transform.position.z);
+		
 	}
 }

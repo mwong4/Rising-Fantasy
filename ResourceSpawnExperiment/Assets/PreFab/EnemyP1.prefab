@@ -254,9 +254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   health: 3
-  BulletDamage: 0
-  enemyDeath: {fileID: 0}
-  turnOnBar: {fileID: 0}
+  BulletDamage: 1
+  enemyDeath: {fileID: 1299574704853368, guid: 801092ae4d07b4c3ba35ee2fa8b1fba5, type: 2}
+  turnOnBar: {fileID: 1175745139359676}
   image: {fileID: 114050024758459386}
   myNewXpSystem: {fileID: 0}
   xpGained: 0

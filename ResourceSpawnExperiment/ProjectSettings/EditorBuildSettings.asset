@@ -9,8 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/TestMenu.unity
     guid: 8a4b8898ebff2584dafd0dc5a04b1318
   - enabled: 1
-    path: Assets/Scenes/CombineScene3.unity
-    guid: bde067fd19529304e9e74196054232ee
-  - enabled: 1
     path: Assets/Scenes/Combine scene4.unity
     guid: 1ce1738af63aa6544830f0a78a9c2739

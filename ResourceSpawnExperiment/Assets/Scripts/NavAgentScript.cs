@@ -15,7 +15,7 @@ public class NavAgentScript : MonoBehaviour {
 
 		target = GameObject.FindWithTag("Destination").transform;
 
-		Debug.Log (target);
+//		Debug.Log (target);
 	}
 	
 	// Update is called once per frame

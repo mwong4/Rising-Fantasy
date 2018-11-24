@@ -46,7 +46,7 @@ public class NewXPSystem : MonoBehaviour {
 			currentRangedXp+=0.01f;
 		}*/
 
-		Debug.Log (currentRangedXp);
+//		Debug.Log (currentRangedXp);
 
 		image.fillAmount = currentRangedXp/100;
 

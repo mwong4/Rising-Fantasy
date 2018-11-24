@@ -26,10 +26,16 @@ public class proje : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "Floor") {
+		if (collision.gameObject.tag == "floor") {
 			mov.canShoot = true;
 			Destroy (gameObject);
-		} else {
+		} 
+
+		if (collision.gameObject.tag == "Enemy") {
+			mov.canShoot = true;
+			Destroy (gameObject);
+		}
+		else {
 			Destroy (gameObject, 0.2f);
 		}
 

@@ -64,7 +64,7 @@ public class ResourceSpawnScript : MonoBehaviour {
 			if (myPhases.collectionPhase == true)
 			{
 
-				Debug.Log ("spawning");
+//				Debug.Log ("spawning");
 				if (treeResourceCount < treeResourceLimit) {
 					Instantiate (TreeResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 3, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
