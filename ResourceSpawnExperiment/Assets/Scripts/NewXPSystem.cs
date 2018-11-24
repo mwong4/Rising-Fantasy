@@ -17,6 +17,8 @@ public class NewXPSystem : MonoBehaviour {
 	public GameObject experienceBar;
 	public Image image;
 
+	public EnemyScript myEnemyScript;
+
 
 	// Use this for initialization
 	void Start () {
@@ -28,6 +30,8 @@ public class NewXPSystem : MonoBehaviour {
 		currentMeleeXp = 0;
 
 		experienceBar = GameObject.FindWithTag ("ExperienceBar");
+
+		myEnemyScript = GameObject.FindWithTag ("Player").GetComponent<EnemyScript> ();
 
 		image.fillAmount = 0;
 		
@@ -49,6 +53,7 @@ public class NewXPSystem : MonoBehaviour {
 		if (currentRangedXp >= 100 ) {
 			currentRangedXp = currentRangedXp - 100f;
 			rangedLevel = rangedLevel + 1;
+			myEnemyScript.BulletDamage += 1;
 		}
 
 		if (currentMeleeXp >= 100 ) {

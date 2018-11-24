@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 563}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 1
-  controlID: 82
+  controlID: 124
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 83
+  controlID: 125
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 179
+  controlID: 25
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,9 +394,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cef4f5ff
-    m_LastClickedID: 0
-    m_ExpandedIDs: 20b5feff22b5feff24b5feffbafafffff0faffff3cfbffff40fbffffa0fbffff0000000032420000
+    m_SelectedIDs: b8f6ffff
+    m_LastClickedID: -2376
+    m_ExpandedIDs: c2f6fffffaf7ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,7 +446,7 @@ MonoBehaviour:
     width: 275
     height: 568
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 545.9551}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
@@ -492,19 +492,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/PreFab/BetterPrefabs
+    - Assets/Sky FX Pack
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/PreFab/BetterPrefabs
+  - Assets/Sky FX Pack
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\wongm\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86300000
-    m_LastClickedID: 12422
-    m_ExpandedIDs: 00000000b22b0000863000000e3100008235000050370000783e000000ca9a3bffffff7f
+    m_SelectedIDs: 2c3d0000
+    m_LastClickedID: 15660
+    m_ExpandedIDs: 00000000d82f0000823400000a350000563900001a3b00002442000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b22b0000863000000e3100008235000050370000783e0000
+    m_ExpandedIDs: 00000000d82f0000823400000a350000563900001a3b000024420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -725,11 +725,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.051277105, y: -0.02037477, z: 0.0010457801, w: -0.9984761}
     speed: 2
-    m_Value: {x: -0.051277105, y: -0.02037477, z: 0.0010457801, w: -0.9984761}
+    m_Value: {x: -0.051277105, y: -0.020374767, z: 0.0010457801, w: -0.998476}
   m_Size:
-    m_Target: 96.73154
+    m_Target: 85.57951
     speed: 2
-    m_Value: 96.73154
+    m_Value: 85.57951
   m_Ortho:
     m_Target: 0
     speed: 2
