@@ -277,6 +277,7 @@
      <Compile Include="Assets\Sky FX Pack\Scripts\RayBehavior.cs" />
      <Compile Include="Assets\Sky FX Pack\Scripts\RotateBehaviour.cs" />
      <Compile Include="Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" />
+     <Compile Include="Assets\SPINTERRAIN.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -429,7 +430,10 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/rufinoansara/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -459,10 +463,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Editor">
- <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+ <HintPath>C:/Users/rufinoansara/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Runtime">
- <HintPath>C:/Users/wongm/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ <HintPath>C:/Users/rufinoansara/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
