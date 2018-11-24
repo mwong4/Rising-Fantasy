@@ -26,6 +26,7 @@ TagManager:
   - floor
   - PlayerPrefab
   - PhasesBar
+  - selection
   layers:
   - Default
   - TransparentFX

@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WShotbar.cs">
     <Files>
       <File FileName="Assets\Scripts\movement.cs" Line="1" Column="1" />
       <File FileName="Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\NavAgentScript.cs" Line="16" Column="60" />
-      <File FileName="Assets\Scripts\TurretPlacement.cs" Line="25" Column="96" />
-      <File FileName="Assets\Scripts\LogScript.cs" Line="49" Column="48" />
+      <File FileName="Assets\Scripts\NavAgentScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TurretPlacement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LogScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WeaponSwitching.cs" Line="63" Column="42" />
+      <File FileName="Assets\Scripts\WShotbar.cs" Line="30" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
