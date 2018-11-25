@@ -281,6 +281,7 @@
      <Compile Include="Assets\Sky FX Pack\Scripts\RayBehavior.cs" />
      <Compile Include="Assets\Sky FX Pack\Scripts\RotateBehaviour.cs" />
      <Compile Include="Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" />
+     <Compile Include="Assets\SPINTERRAIN.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

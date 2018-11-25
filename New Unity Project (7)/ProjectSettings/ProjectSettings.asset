@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 126c2835213e77f4697b2fce6c716891
+  productGUID: 8ad70af49ecfb6444b913ed5bc108b40
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -630,11 +630,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: d7c69345-e4d4-4d6b-b047-d69dc4fec827
-  projectName: New Unity Project (7) (2)
+  cloudProjectId: 5a5e934e-b214-4713-8843-380cb3ed7fe9
+  projectName: New Unity Project (7) (3)
   organizationId: rufino-r-ansara
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
