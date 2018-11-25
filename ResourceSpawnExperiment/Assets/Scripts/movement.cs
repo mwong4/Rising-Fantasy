@@ -7,24 +7,19 @@ public class movement : MonoBehaviour {
 	public float moveSpeed;
 
 	Player_Health ph;
-	Rigidbody rb;
 
-	private CamShake shake;
 
 	// Use this for initialization
 	void Start () {
 		ph = GetComponentInChildren<Player_Health> ();
-		rb = GetComponent<Rigidbody> ();
-		shake = GameObject.FindGameObjectWithTag ("ScreenShake").GetComponent<CamShake> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		if (ph.hit == true) {
-			shake.CamShake_ ();
 
-			moveSpeed = -10;
+			moveSpeed = -8;
 			StartCoroutine (Wait ());
 			} 
 
@@ -34,7 +29,7 @@ public class movement : MonoBehaviour {
 	IEnumerator Wait()
 	{
 		
-		yield return new WaitForSeconds (0.6f);
+		yield return new WaitForSeconds (0.3f);
 		moveSpeed = 8;
 
 	}

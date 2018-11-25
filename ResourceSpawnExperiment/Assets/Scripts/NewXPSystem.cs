@@ -33,7 +33,7 @@ public class NewXPSystem : MonoBehaviour {
 
 		myEnemyScript = GameObject.FindWithTag ("Player").GetComponent<EnemyScript> ();
 
-		image.fillAmount = 0;
+		//image.fillAmount = 0;
 		
 	}
 	
@@ -48,7 +48,7 @@ public class NewXPSystem : MonoBehaviour {
 
 //		Debug.Log (currentRangedXp);
 
-		image.fillAmount = currentRangedXp/100;
+		//image.fillAmount = currentRangedXp/100;
 
 		if (currentRangedXp >= 100 ) {
 			currentRangedXp = currentRangedXp - 100f;
