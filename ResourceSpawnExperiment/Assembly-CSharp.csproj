@@ -276,6 +276,7 @@
      <Compile Include="Assets\Scripts\weapon.cs" />
      <Compile Include="Assets\Scripts\weaponn.cs" />
      <Compile Include="Assets\Scripts\WeaponSwitching.cs" />
+     <Compile Include="Assets\Scripts\WShotbar.cs" />
      <Compile Include="Assets\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
      <Compile Include="Assets\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
      <Compile Include="Assets\Sky FX Pack\Scripts\LookAtCameraBehaviour.cs" />
