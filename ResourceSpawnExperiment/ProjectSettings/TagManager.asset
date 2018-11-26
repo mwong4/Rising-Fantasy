@@ -29,6 +29,7 @@ TagManager:
   - StupidWalls
   - ScreenShake
   - Floor
+  - Graphic
   layers:
   - Default
   - TransparentFX

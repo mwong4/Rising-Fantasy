@@ -1,13 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SPINTERRAIN.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Stay.cs">
     <Files>
-      <File FileName="Assets\Scripts\movement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NewXPSystem.cs" Line="51" Column="5" />
+      <File FileName="Assets\Scripts\copll.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\lookatmouse.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ResourceSpawnScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\NavAgentScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TurretPlacement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LogScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\SPINTERRAIN.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\proje.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Target.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraFollow.cs" Line="14" Column="58" />
+      <File FileName="Assets\Scripts\movement.cs" Line="35" Column="3" />
+      <File FileName="Assets\RespawnScript.cs" Line="39" Column="18" />
+      <File FileName="Assets\Scripts\Player_Health.cs" Line="34" Column="4" />
+      <File FileName="Assets\Stay.cs" Line="16" Column="69" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
