@@ -54,7 +54,7 @@ public class TurretMovement : MonoBehaviour
 				endPoint = hit.point;
 			}
 
-			if (myWeaponSwitching.selectedWeapon == 3) {
+			if (myWeaponSwitching.selectedWeapon == 2) {
 
 				Instantiate (projectile, shotPoint.position, shotPoint.rotation);
 				nextTimeToFire = Time.time + 3f / fireRate;
