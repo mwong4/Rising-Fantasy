@@ -46,3 +46,4 @@ ResourceSpawnExperiment/Assembly-CSharp-firstpass.csproj
 ResourceSpawnExperiment/Assembly-CSharp-Editor.csproj
 ResourceSpawnExperiment/Assembly-CSharp-Editor.csproj
 ResourceSpawnExperiment/Assembly-CSharp.csproj
+*.dwlt
