@@ -152,6 +152,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 108244077513103236, guid: 1e9a169d90779204cab02971253589e3,
+        type: 2}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1707699928358064, guid: 1e9a169d90779204cab02971253589e3, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e9a169d90779204cab02971253589e3, type: 2}
   m_IsPrefabParent: 0
@@ -282,6 +291,30 @@ Prefab:
     - target: {fileID: 4840684201198488, guid: 4b30755cfaf3b7c419811f78de63e884, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 108916431893772712, guid: 4b30755cfaf3b7c419811f78de63e884,
+        type: 2}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090345323412438, guid: 4b30755cfaf3b7c419811f78de63e884, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108916431893772712, guid: 4b30755cfaf3b7c419811f78de63e884,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.9558824
+      objectReference: {fileID: 0}
+    - target: {fileID: 108916431893772712, guid: 4b30755cfaf3b7c419811f78de63e884,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.8427399
+      objectReference: {fileID: 0}
+    - target: {fileID: 108916431893772712, guid: 4b30755cfaf3b7c419811f78de63e884,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.53416955
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b30755cfaf3b7c419811f78de63e884, type: 2}
@@ -1391,6 +1424,74 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1980727954}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1 &1957627782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1957627783}
+  - component: {fileID: 1957627785}
+  - component: {fileID: 1957627784}
+  m_Layer: 0
+  m_Name: XpCover (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1957627783
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957627782}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 32.54834, y: 41.913998, z: 11.939168}
+  m_Children: []
+  m_Father: {fileID: 1980727955}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1411, y: -667}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1957627784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957627782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 24cf4ff8124bb77439f144f8a492563f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1957627785
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957627782}
 --- !u!1001 &1980727954
 Prefab:
   m_ObjectHideFlags: 0
@@ -1548,9 +1649,50 @@ Prefab:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: f30d9aab372b0f346abb7914f6e81941, type: 2}
+    - target: {fileID: 114709704362732452, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a53eea9bc3cb1774f9af77e336064e29,
+        type: 3}
+    - target: {fileID: 224759570825033024, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 2788
+      objectReference: {fileID: 0}
+    - target: {fileID: 114076681865459248, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114076681865459248, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114076681865459248, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114076681865459248, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114076681865459248, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbf523dd44754b641b0939dd0924b3fc, type: 2}
   m_IsPrefabParent: 0
+--- !u!224 &1980727955 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224097551395933098, guid: cbf523dd44754b641b0939dd0924b3fc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1980727954}
 --- !u!1001 &2092035198
 Prefab:
   m_ObjectHideFlags: 0

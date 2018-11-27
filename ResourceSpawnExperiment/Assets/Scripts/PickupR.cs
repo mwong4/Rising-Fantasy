@@ -11,13 +11,15 @@ public class PickupR : MonoBehaviour {
 	public WeaponSwitching myWeaponSwitching;
 	public TimeSystem myPhases;
 
+	public bool pickedUp = false;
+
 	// Use this for initialization
 	void Start () {
 
 		onhand = GameObject.FindWithTag("OnHandPosition").transform;
 
 
-		GetComponent<Rigidbody>().useGravity = false;
+		GetComponent<Rigidbody>().useGravity = true;
 		rb = GetComponent<Rigidbody>();
 
 		rb.isKinematic = false;
@@ -36,6 +38,10 @@ public class PickupR : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if (pickedUp == true) {
+			this.transform.position = onhand.position;
+		}
+
 	}
 
 	void OnMouseDown()
@@ -50,6 +56,8 @@ public class PickupR : MonoBehaviour {
 		this.transform.position = onhand.position;
 		this.transform.parent = GameObject.FindWithTag("Player").transform;
 		this.transform.parent = GameObject.Find("EthanSkeleton").transform;
+
+			pickedUp = true;
 		}
 	}
 
@@ -61,5 +69,9 @@ public class PickupR : MonoBehaviour {
 
 		rb.isKinematic = false;
 		rb.detectCollisions = true;
+
+		pickedUp = false;
+
+
 	}
 }
