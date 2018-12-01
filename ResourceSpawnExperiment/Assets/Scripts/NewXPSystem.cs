@@ -37,6 +37,8 @@ public class NewXPSystem : MonoBehaviour {
 		myEnemyScript = GameObject.FindWithTag ("Player").GetComponent<EnemyScript> ();
 
 		//image.fillAmount = 0;
+
+		image.fillAmount = 0;
 		
 	}
 	
@@ -44,6 +46,8 @@ public class NewXPSystem : MonoBehaviour {
 	void Update () {
 
 		myXPRangedText.text = "Ranged Level: " + (currentRangedXp + 1);
+
+		image.fillAmount = (currentRangedXp/100);
 
 
 	/*	if(Input.GetKey("space"))

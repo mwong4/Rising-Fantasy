@@ -206,6 +206,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 625e20f8bc9850a44a489226126187a1, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &60407693 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114709704362732452, guid: cbf523dd44754b641b0939dd0924b3fc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1980727954}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &107675547
 Prefab:
   m_ObjectHideFlags: 0
@@ -1488,11 +1494,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 114624235817808710, guid: 371831d539b59da4bb1aa625ae3652c5,
-        type: 2}
-      propertyPath: myXPRangedText
-      value: 
-      objectReference: {fileID: 503118981}
     - target: {fileID: 114465636443153912, guid: 371831d539b59da4bb1aa625ae3652c5,
         type: 2}
       propertyPath: image
@@ -1503,6 +1504,16 @@ Prefab:
       propertyPath: myHealthText
       value: 
       objectReference: {fileID: 472767229}
+    - target: {fileID: 114624235817808710, guid: 371831d539b59da4bb1aa625ae3652c5,
+        type: 2}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 60407693}
+    - target: {fileID: 114624235817808710, guid: 371831d539b59da4bb1aa625ae3652c5,
+        type: 2}
+      propertyPath: myXPRangedText
+      value: 
+      objectReference: {fileID: 503118981}
     - target: {fileID: 1906807541693444, guid: 371831d539b59da4bb1aa625ae3652c5, type: 2}
       propertyPath: m_Name
       value: Player(updated) (1)
@@ -2016,6 +2027,21 @@ Prefab:
         type: 2}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114709704362732452, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114709704362732452, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114709704362732452, guid: cbf523dd44754b641b0939dd0924b3fc,
+        type: 2}
+      propertyPath: m_PreserveAspect
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbf523dd44754b641b0939dd0924b3fc, type: 2}

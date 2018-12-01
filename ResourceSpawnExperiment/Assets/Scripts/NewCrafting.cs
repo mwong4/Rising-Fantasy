@@ -22,7 +22,7 @@ public class NewCrafting : MonoBehaviour {
 		if (touchingWood == true && touchingRock == true) {
 
 			//spawning the turret
-			Instantiate (turretPrefab, transform.position, transform.rotation);
+			Instantiate(turretPrefab, new Vector3( transform.position.x, transform.position.y + 2, transform.position.z), Quaternion.identity);
 
 			destroyMaterials = true;
 		} else {
