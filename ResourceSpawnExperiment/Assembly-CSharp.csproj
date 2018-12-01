@@ -180,6 +180,7 @@
      <Compile Include="Assets\Scripts\SHooting.cs" />
      <Compile Include="Assets\Scripts\shootytt.cs" />
      <Compile Include="Assets\Scripts\Sun.cs" />
+     <Compile Include="Assets\Scripts\Sun2.cs" />
      <Compile Include="Assets\Scripts\Swordattack.cs" />
      <Compile Include="Assets\Scripts\swordControl.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
@@ -440,9 +441,6 @@
      <None Include="Assets\Tower Defense Template\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/rufinoansara/Documents/GitHub/Rising-Fantasy/ResourceSpawnExperiment/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

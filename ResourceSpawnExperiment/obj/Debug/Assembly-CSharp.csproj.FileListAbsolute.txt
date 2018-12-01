@@ -17,7 +17,6 @@ C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Te
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.Timeline.dll
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.UI.dll
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.UIAutomation.dll
-C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Vuforia.UnityExtensions.dll
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Unity.Cecil.dll
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Unity.SerializationLogic.dll
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Unity.DataContract.dll
@@ -29,7 +28,6 @@ C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Te
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Unity.Cecil.Mdb.dll
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.xml
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEditor.xml
-C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Vuforia.UnityExtensions.xml
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEngine.TestRunner.xml
