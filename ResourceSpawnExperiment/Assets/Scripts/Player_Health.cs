@@ -10,6 +10,9 @@ public class Player_Health : MonoBehaviour {
 
 	public bool hit;
 
+	//Current UI text
+	public Text myHealthText;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,6 +21,7 @@ public class Player_Health : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		myHealthText.text = "Health  " + ((health / 5) * 100) + "%";
 
 		image.fillAmount = health / 5;
 	}

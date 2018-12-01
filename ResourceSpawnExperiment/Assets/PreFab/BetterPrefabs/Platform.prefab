@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 65678983029438706}
   - component: {fileID: 23910469911811402}
   - component: {fileID: 114045257426937466}
+  - component: {fileID: 114191272585683362}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -121,3 +122,19 @@ MonoBehaviour:
   myFourthResourceTransform: {fileID: 4448789435324958, guid: df99ea7a3b414d04fa1ed31371d37e5a,
     type: 2}
   myTimeSystem: {fileID: 0}
+--- !u!114 &114191272585683362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884719659221348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c2615449d28524eb20f107264236f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchingRock: 0
+  touchingWood: 0
+  destroyMaterials: 0
+  turretPrefab: {fileID: 1814192743316258, guid: 7a5e91dfa6eef1745a271cafd6daf776,
+    type: 2}

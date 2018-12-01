@@ -28,6 +28,8 @@ public class EnemySpawner : MonoBehaviour {
 
 	public TimeSystem myPhases;
 
+	public float loopCounter;
+
 
 	// Use this for initialization
 	void Start () {
@@ -49,10 +51,15 @@ public class EnemySpawner : MonoBehaviour {
 		{
 			CurrentTime = 0f;
 
+			loopCounter += 0.1f;
+
 			Instantiate(Enemy, new Vector3(Random.Range(SpawnRangeMinX  , SpawnRangeMaxX), 3, Random.Range(SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 			//Debug.Log ("spawning");
 		}
-
+		if (loopCounter >= 1) {
+			loopCounter = 0;
+			ResourceLimit = ResourceLimit + 1;
+		}
 		//Debug.Log("ResourceObjects: " + ResourceCount);
 
 		ResourceCount = GameObject.FindGameObjectsWithTag("Enemy").Length;

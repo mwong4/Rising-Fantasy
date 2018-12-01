@@ -9,6 +9,8 @@ public class NewCrafting : MonoBehaviour {
 
 	public bool destroyMaterials;
 
+	public GameObject turretPrefab;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,8 +20,9 @@ public class NewCrafting : MonoBehaviour {
 	void Update () {
 
 		if (touchingWood == true && touchingRock == true) {
-			
-			//Spawn turret
+
+			//spawning the turret
+			Instantiate (turretPrefab, transform.position, transform.rotation);
 
 			destroyMaterials = true;
 		} else {
@@ -47,7 +50,7 @@ public class NewCrafting : MonoBehaviour {
 
 		}
 		if (destroyMaterials == true) {
-			Destroy (collider.gameObject);
+			Destroy (GetComponent<Collider>().gameObject);
 		}
 	} 
 }

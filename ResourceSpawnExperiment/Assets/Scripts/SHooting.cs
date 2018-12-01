@@ -10,6 +10,9 @@ public class SHooting : MonoBehaviour {
 
 	public Transform box;
 
+	public float currentTime;
+	public float delay;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,7 +21,12 @@ public class SHooting : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		currentTime += 1;
 
-		Instantiate (projectile, shotPoint.position, shotPoint.rotation);	
+
+		if (currentTime >= delay) {
+			Instantiate (projectile, shotPoint.position, shotPoint.rotation);
+			currentTime = 0;
+		}
 	}
 }

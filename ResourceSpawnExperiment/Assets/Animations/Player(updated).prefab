@@ -288,7 +288,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 2.5, z: 0.2}
   m_Children: []
   m_Father: {fileID: 4489104688368632}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4472425505313944
 Transform:
@@ -317,8 +317,8 @@ Transform:
   m_Children:
   - {fileID: 4746524179229104}
   - {fileID: 4884433531065732}
-  - {fileID: 4416535112148504}
   - {fileID: 4635900078361634}
+  - {fileID: 4416535112148504}
   - {fileID: 4599767901043174}
   m_Father: {fileID: 4702789132290872}
   m_RootOrder: 0
@@ -348,7 +348,7 @@ Transform:
   m_Children:
   - {fileID: 4177988368273564}
   m_Father: {fileID: 4489104688368632}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4702789132290872
 Transform:
@@ -862,6 +862,7 @@ MonoBehaviour:
   health: 5
   image: {fileID: 0}
   hit: 0
+  myHealthText: {fileID: 0}
 --- !u!114 &114585307449597822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -892,6 +893,7 @@ MonoBehaviour:
   experienceBar: {fileID: 0}
   image: {fileID: 0}
   myEnemyScript: {fileID: 0}
+  myXPRangedText: {fileID: 0}
 --- !u!114 &114777622360003054
 MonoBehaviour:
   m_ObjectHideFlags: 1

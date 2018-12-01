@@ -19,6 +19,9 @@ public class NewXPSystem : MonoBehaviour {
 
 	public EnemyScript myEnemyScript;
 
+	//Current UI text
+	public Text myXPRangedText;
+
 
 	// Use this for initialization
 	void Start () {
@@ -39,6 +42,8 @@ public class NewXPSystem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		myXPRangedText.text = "Ranged Level: " + (currentRangedXp + 1);
 
 
 	/*	if(Input.GetKey("space"))
