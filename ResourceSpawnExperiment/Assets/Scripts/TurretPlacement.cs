@@ -32,10 +32,10 @@ public class TurretPlacement : MonoBehaviour {
 		myTimeSystem = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
 
 		//referencing and setting "myPlayer" as the player's transform
-		myResourceTransform = GameObject.FindWithTag ("RefinedWoodResource").transform;
-		mySecondResourceTransform = GameObject.FindWithTag ("RawRockResource").transform;
-		myThirdResourceTransform = GameObject.FindWithTag ("RawRockResourceTwo").transform;
-		myFourthResourceTransform = GameObject.FindWithTag ("RawRockResourceThree").transform;
+		//myResourceTransform = GameObject.FindWithTag ("RefinedWoodResource").transform;
+		//mySecondResourceTransform = GameObject.FindWithTag ("RawRockResource").transform;
+		//myThirdResourceTransform = GameObject.FindWithTag ("RawRockResourceTwo").transform;
+		//myFourthResourceTransform = GameObject.FindWithTag ("RawRockResourceThree").transform;
 
 
 		//currentTime = 0;

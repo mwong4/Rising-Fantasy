@@ -15,9 +15,13 @@ public class LogScript : MonoBehaviour {
 	
 	bool mouseDown = false;
 
+	public NewCrafting myNewCrafting;
+
 
 	// Use this for initialization
 	void Start () {
+
+		myNewCrafting = GameObject.FindGameObjectWithTag ("Platform").GetComponent<NewCrafting> ();
 
 		//referencing the phase
 		myPhases = GameObject.FindWithTag ("Phases").GetComponent<TimeSystem> ();
@@ -75,5 +79,16 @@ public class LogScript : MonoBehaviour {
 		mouseDown = false;
 
     }
+
+	void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.tag == "Platform") {
+			myNewCrafting.touchingWood = true;
+				myNewCrafting.craftMaterials.Add (this.gameObject);
+
+		} else {
+			myNewCrafting.touchingWood = false;
+		}
+	}
 		
 }

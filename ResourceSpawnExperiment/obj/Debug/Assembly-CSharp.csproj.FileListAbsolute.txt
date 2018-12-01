@@ -88,8 +88,6 @@ C:\Users\wongm\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\
 C:\Users\wongm\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\wongm\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.dll
 C:\Users\wongm\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.pdb
-C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEditor.UI.dll
-C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEditor.UI.xml
 C:\Users\Max Wong\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Max Wong\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Max Wong\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\Facebook.Unity.Settings.dll
@@ -134,3 +132,5 @@ C:\Users\Max Wong\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\b
 C:\Users\Max Wong\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Max Wong\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.dll
 C:\Users\Max Wong\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\obj\Debug\Assembly-CSharp.pdb
+C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\rufinoansara\Documents\GitHub\Rising-Fantasy\ResourceSpawnExperiment\Temp\bin\Debug\UnityEditor.UI.xml

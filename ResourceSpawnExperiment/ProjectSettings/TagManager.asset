@@ -30,6 +30,8 @@ TagManager:
   - ScreenShake
   - Floor
   - Graphic
+  - selection
+  - Platform
   layers:
   - Default
   - TransparentFX

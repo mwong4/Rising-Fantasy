@@ -7,7 +7,8 @@ public class NewCrafting : MonoBehaviour {
 	public bool touchingRock;
 	public bool touchingWood;
 
-	public bool destroyMaterials;
+
+	public List<GameObject> craftMaterials = new List<GameObject> ();
 
 	public GameObject turretPrefab;
 
@@ -24,9 +25,12 @@ public class NewCrafting : MonoBehaviour {
 			//spawning the turret
 			Instantiate(turretPrefab, new Vector3( transform.position.x, transform.position.y + 2, transform.position.z), Quaternion.identity);
 
-			destroyMaterials = true;
-		} else {
-			destroyMaterials = false;
+			foreach (GameObject x in craftMaterials) {
+				Destroy (x);
+			}
+
+			touchingWood = false;
+			touchingRock = false;
 		}
 		
 	}
@@ -35,22 +39,13 @@ public class NewCrafting : MonoBehaviour {
 	{
 		if ( collision.gameObject.tag == "RawRockResource" || collision.gameObject.tag == "RawRockResourceTwo" || collision.gameObject.tag == "RawRockResourceThree" ) {
 			touchingRock = true;
+			craftMaterials.Add (collision.gameObject);
 
 		}
-		if ( collision.gameObject.tag != "RawRockResource" && collision.gameObject.tag != "RawRockResourceTwo" && collision.gameObject.tag != "RawRockResourceThree" ) {
+		else {
 			touchingRock = false;
 
 		}
-		if ( collision.gameObject.tag == "RefinedWoodResource"  ) {
-			touchingWood = true;
-
-		}
-		if ( collision.gameObject.tag != "RefinedWoodResource"  ) {
-			touchingWood = false;
-
-		}
-		if (destroyMaterials == true) {
-			Destroy (GetComponent<Collider>().gameObject);
-		}
+			
 	} 
 }

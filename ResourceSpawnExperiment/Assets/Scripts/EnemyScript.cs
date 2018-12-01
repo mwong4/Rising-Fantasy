@@ -51,7 +51,7 @@ public class EnemyScript : MonoBehaviour {
 		if (collision.gameObject.tag == "Projectile") {
 
 			//if the enemy is shot, increase XP for ranged
-			//myNewXpSystem.currentRangedXp += xpGained;
+			myNewXpSystem.currentRangedXp += xpGained;
 
 			health = health - BulletDamage;
 
