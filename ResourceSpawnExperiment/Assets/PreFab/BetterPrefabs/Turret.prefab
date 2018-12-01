@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 23952678281530204}
   - component: {fileID: 114739774237360216}
   - component: {fileID: 114069792042938042}
+  - component: {fileID: 135326504807880682}
   m_Layer: 0
   m_Name: TurretBpx
   m_TagString: Untagged
@@ -62,7 +63,7 @@ GameObject:
   - component: {fileID: 23547215738244406}
   m_Layer: 0
   m_Name: Turret
-  m_TagString: Untagged
+  m_TagString: Destination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,8 +117,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1814192743316258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 183.02, y: 42.021, z: 13.321}
-  m_LocalScale: {x: 1, y: 0.22275543, z: 1}
+  m_LocalPosition: {x: -10.217386, y: 0.111377716, z: -4.277295}
+  m_LocalScale: {x: 2, y: 0.44, z: 2}
   m_Children:
   - {fileID: 4161375784301964}
   m_Father: {fileID: 0}
@@ -151,7 +152,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: bde1742944d10424a9064737240c9d1f, type: 2}
+  - {fileID: 2100000, guid: 31ef1f077e850b44587c30ecb2ac89fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -185,7 +186,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: bde1742944d10424a9064737240c9d1f, type: 2}
+  - {fileID: 2100000, guid: 31ef1f077e850b44587c30ecb2ac89fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -219,7 +220,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: bde1742944d10424a9064737240c9d1f, type: 2}
+  - {fileID: 2100000, guid: 31ef1f077e850b44587c30ecb2ac89fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -312,6 +313,8 @@ MonoBehaviour:
   box: {fileID: 0}
   currentTime: 0
   delay: 30
+  enemiesInRange: []
+  enemyEntered: 0
 --- !u!114 &114739774237360216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -325,3 +328,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lookPos: {x: 0, y: 0, z: 0}
   target: {fileID: 0}
+--- !u!135 &135326504807880682
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334174535182984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8
+  m_Center: {x: 0, y: 0, z: 0}
