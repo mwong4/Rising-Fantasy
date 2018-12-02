@@ -22,10 +22,10 @@ public class CameraRotatoe : MonoBehaviour {
 	{
 		offsets = new Vector3[4];
 
-		offsets[0] = new Vector3 (0, 6, -4);
-		offsets[1] = new Vector3 (4, 6, 0);
-		offsets[2] = new Vector3 (0, 6, 4);
-		offsets[3] = new Vector3 (-4, 6, 0);
+		offsets[0] = new Vector3 (0, 16, -4);
+		offsets[1] = new Vector3 (4, 16, 0);
+		offsets[2] = new Vector3 (0, 16, 4);
+		offsets[3] = new Vector3 (-4, 16, 0);
 
 		offset = offsets [0];
 	

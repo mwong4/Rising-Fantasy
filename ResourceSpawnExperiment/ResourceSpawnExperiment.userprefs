@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraRotatoe.cs">
     <Files>
       <File FileName="Assets\Scripts\NewCrafting.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\TimeSystem.cs" Line="1" Column="1" />
@@ -10,11 +10,12 @@
       <File FileName="Assets\Scripts\TurretPlacement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemyScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LogScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\lookatmouse.cs" Line="6" Column="2" />
-      <File FileName="Assets\Scripts\movement.cs" Line="9" Column="1" />
+      <File FileName="Assets\Scripts\lookatmouse.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\movement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerRotation.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraRotatoe.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraRotatoe.cs" Line="24" Column="3" />
       <File FileName="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\swordControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
