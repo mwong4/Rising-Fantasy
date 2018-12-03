@@ -48,6 +48,10 @@ public class SHooting : MonoBehaviour {
 					closest = x;
 					distance = curDistance;
 				}
+				if (x == null) {
+					enemiesInRange.Remove (x);
+				}
+
 			}
 			//return closest;
 

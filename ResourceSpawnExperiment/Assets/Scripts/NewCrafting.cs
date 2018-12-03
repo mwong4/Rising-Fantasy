@@ -32,6 +32,7 @@ public class NewCrafting : MonoBehaviour {
 			touchingWood = false;
 			touchingRock = false;
 		}
+			
 		
 	}
 
