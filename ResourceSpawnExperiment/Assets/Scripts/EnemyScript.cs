@@ -43,6 +43,7 @@ public class EnemyScript : MonoBehaviour {
 
 		if (health <= 0) {
 			CommitDie ();
+			health = fHealth;
 		}
 	}
 
@@ -67,9 +68,11 @@ public class EnemyScript : MonoBehaviour {
         //Justin, Right here, you should instantiate the particle effect instead -Max
 
 
+		Instantiate (enemyDeath, this.transform.position, Quaternion.identity);
 
+		//this.transform.position = new Vector3 (300000, -300000, 300000);
 		Destroy (this.gameObject);
-		Instantiate (enemyDeath, transform.position, Quaternion.identity);
+
 
 	}
 }

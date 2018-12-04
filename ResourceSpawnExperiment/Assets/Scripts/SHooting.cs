@@ -21,7 +21,7 @@ public class SHooting : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		lookAt = GameObject.FindGameObjectWithTag("Crosshair").GetComponent<Transform>();
+		//lookAt = GameObject.FindGameObjectWithTag("Crosshair").GetComponent<Transform>();
 		
 	}
 	
@@ -39,7 +39,14 @@ public class SHooting : MonoBehaviour {
 			float distance = Mathf.Infinity;
 			Vector3 position = transform.position;
 
+
+
 			foreach (GameObject x in enemiesInRange) {
+
+				if (x == null) {
+					enemiesInRange.Remove (x);
+					return;a
+				}
 
 				Vector3 diff = x.transform.position - position;
 				float curDistance = diff.sqrMagnitude;
@@ -48,9 +55,7 @@ public class SHooting : MonoBehaviour {
 					closest = x;
 					distance = curDistance;
 				}
-				if (x == null) {
-					enemiesInRange.Remove (x);
-				}
+
 
 			}
 			//return closest;
@@ -74,5 +79,9 @@ public class SHooting : MonoBehaviour {
 			enemyEntered = true;
 			enemiesInRange.Add (collision.gameObject);
 		}
+	}
+
+	void OnTriggerExit(Collider other){
+		enemiesInRange.Remove (other.gameObject);
 	}
 }
