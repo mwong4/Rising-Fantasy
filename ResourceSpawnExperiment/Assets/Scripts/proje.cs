@@ -40,28 +40,12 @@ public class proje : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "floor") {
-			currTime = 0;
-			mov.canShoot = true;
-			Destroy (gameObject);
-		} 
-		if (collision.gameObject.tag == "Enemy") {
-			currTime = 0;
-			mov.canShoot = true;
-			Destroy (gameObject);
-		} 
-
-		if (collision.gameObject.tag == "Crosshair") {
-			currTime = 0;
-			mov.canShoot = true;
-			Destroy (gameObject);
-		} 
-
-		else {
-			Destroy (gameObject, 0.2f);
-		}
-
+		currTime = 0;
+		mov.canShoot = true;
+		Destroy (gameObject); 
 	} 
+
+
 
 
 }

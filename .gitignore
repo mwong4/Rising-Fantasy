@@ -47,3 +47,7 @@ ResourceSpawnExperiment/Assembly-CSharp-Editor.csproj
 ResourceSpawnExperiment/Assembly-CSharp-Editor.csproj
 ResourceSpawnExperiment/Assembly-CSharp.csproj
 *.dwlt
+*.csproj
+*.csproj
+*.csproj
+*.log
