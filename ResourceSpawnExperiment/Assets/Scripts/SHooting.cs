@@ -45,7 +45,7 @@ public class SHooting : MonoBehaviour {
 
 				if (x == null) {
 					enemiesInRange.Remove (x);
-					return;a
+					return;
 				}
 
 				Vector3 diff = x.transform.position - position;

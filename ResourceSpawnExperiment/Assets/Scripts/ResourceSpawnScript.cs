@@ -74,15 +74,15 @@ public class ResourceSpawnScript : MonoBehaviour {
 				}
 
 				if (rockResourceCount < rockResourceLimit) {
-					Instantiate (RockResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 2, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (RockResource, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 10, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 
 				if (rockTwoResourceCount < rockTwoResourceLimit) {
-					Instantiate (RockResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 2, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (RockResourceTwo, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 10, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 
 				if (rockThreeResourceCount < rockThreeResourceLimit) {
-					Instantiate (RockResourceThree, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 2, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
+					Instantiate (RockResourceThree, new Vector3 (Random.Range (SpawnRangeMinX, SpawnRangeMaxX), 10, Random.Range (SpawnRangeMinZ, SpawnRangeMaxZ)), Quaternion.identity);
 				}
 			}
 		}
