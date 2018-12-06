@@ -66,14 +66,14 @@ MonoBehaviour:
   rockResourceCount: 0
   rockTwoResourceCount: 0
   rockThreeResourceCount: 0
-  treeResourceLimit: 20
-  treeTwoResourceLimit: 10
-  rockResourceLimit: 10
-  rockTwoResourceLimit: 5
-  rockThreeResourceLimit: 5
+  treeResourceLimit: 40
+  treeTwoResourceLimit: 20
+  rockResourceLimit: 20
+  rockTwoResourceLimit: 10
+  rockThreeResourceLimit: 10
   SetDelay: 0.1
-  SpawnRangeMinX: -50
-  SpawnRangeMinZ: -50
-  SpawnRangeMaxX: 50
-  SpawnRangeMaxZ: 50
+  SpawnRangeMinX: -100
+  SpawnRangeMinZ: -100
+  SpawnRangeMaxX: 100
+  SpawnRangeMaxZ: 100
   myPhases: {fileID: 0}

@@ -58,7 +58,8 @@ MonoBehaviour:
   SetDelay: 1
   RandomSpawnRange: 1
   SpawnRangeMinX: 1
-  SpawnRangeMinZ: -34
+  SpawnRangeMinZ: -100
   SpawnRangeMaxX: 0
-  SpawnRangeMaxZ: -35
+  SpawnRangeMaxZ: -110
   myPhases: {fileID: 0}
+  loopCounter: 0

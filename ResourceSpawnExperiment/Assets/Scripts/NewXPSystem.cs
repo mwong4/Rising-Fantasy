@@ -45,7 +45,7 @@ public class NewXPSystem : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		myXPRangedText.text = "Ranged Level: " + (currentRangedXp + 1);
+		myXPRangedText.text = "Ranged Level: " + (rangedLevel);
 
 		image.fillAmount = (currentRangedXp/100);
 

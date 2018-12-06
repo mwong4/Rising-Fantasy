@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dcf6408f1a8c0941930ffba3c71dec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  despawn: 70
+  despawn: 20
   speed: 50
 --- !u!136 &136449001889983102
 CapsuleCollider:
