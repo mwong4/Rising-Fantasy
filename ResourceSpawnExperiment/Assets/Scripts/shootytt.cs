@@ -10,7 +10,7 @@ public class shootytt : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Destroy (gameObject, 1f);
+		Destroy (gameObject, 2f);
 		direction = this.transform.localPosition;
 	}
 	
@@ -21,5 +21,9 @@ public class shootytt : MonoBehaviour {
 		transform.Translate (0, -speed * Time.deltaTime, 0);
 
 	
+	}
+
+	void OnCollisionEnter(){
+		Destroy (gameObject);
 	}
 }

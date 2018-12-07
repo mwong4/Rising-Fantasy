@@ -55,7 +55,7 @@ public class PickupR : MonoBehaviour {
 
 		this.transform.position = onhand.position;
 		this.transform.parent = GameObject.FindWithTag("Player").transform;
-		this.transform.parent = GameObject.Find("EthanSkeleton").transform;
+		//this.transform.parent = GameObject.Find("EthanSkeleton").transform;
 
 			pickedUp = true;
 		}

@@ -37,6 +37,7 @@ public class RespawnScript : MonoBehaviour {
 		yield return new WaitForSeconds (0.3f);
 		player.SetActive (true);
 		ph.hit = false;
+		mov.moveSpeed = 8;
 		player.transform.position = plat.transform.position + Vector3.up * 10 - Vector3.forward * 4;
 
 	}
