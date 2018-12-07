@@ -25,6 +25,10 @@ GameObject:
   - component: {fileID: 114045257426937466}
   - component: {fileID: 114191272585683362}
   - component: {fileID: 54633510261436728}
+  - component: {fileID: 135238854989889170}
+  - component: {fileID: 135279959900121196}
+  - component: {fileID: 135125115751831796}
+  - component: {fileID: 135463316416789420}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Platform
@@ -39,8 +43,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1884719659221348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -11.2}
-  m_LocalScale: {x: 8.556683, y: 0.49709374, z: 9.497052}
+  m_LocalPosition: {x: 13.5, y: 1.02, z: -0.5}
+  m_LocalScale: {x: 4.4409666, y: 0.25799447, z: 4.9290237}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -124,20 +128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1abd04d4f1a194aab0c1656256b287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFromResourceOne: 0
-  distanceFromResourceTwo: 0
-  distanceFromResourceThree: 0
-  distanceFromResourceFour: 0
   lockRadius: 3
-  myResourceTransform: {fileID: 4389818602948240, guid: 48a7bdf6b709b35439dddb2cf2c33aac,
-    type: 2}
-  mySecondResourceTransform: {fileID: 4057101331778632, guid: b5a434e79c51dce468df88f44c5f09ab,
-    type: 2}
-  myThirdResourceTransform: {fileID: 4545922021123490, guid: 02fdec946397f514d8aa6fad98318508,
-    type: 2}
-  myFourthResourceTransform: {fileID: 4448789435324958, guid: df99ea7a3b414d04fa1ed31371d37e5a,
-    type: 2}
   myTimeSystem: {fileID: 0}
+  resourcesInRange: []
 --- !u!114 &114191272585683362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -151,6 +144,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   touchingRock: 0
   touchingWood: 0
-  destroyMaterials: 0
+  craftMaterials: []
   turretPrefab: {fileID: 1814192743316258, guid: 7a5e91dfa6eef1745a271cafd6daf776,
     type: 2}
+--- !u!135 &135125115751831796
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884719659221348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &135238854989889170
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884719659221348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &135279959900121196
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884719659221348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &135463316416789420
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884719659221348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}

@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTime: 0
-  TimeChange: 1
+  TimeChange: 0.1
   PhaseIncreasePercent: 1
   currentChanged: 0
   myPhasesText: {fileID: 0}

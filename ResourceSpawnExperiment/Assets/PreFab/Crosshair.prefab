@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23342381414480998}
   - component: {fileID: 114945119466503602}
   - component: {fileID: 54495024655902272}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Crosshair
   m_TagString: Crosshair
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1330649476509358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.225, y: 0.6, z: -3.675}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.4350214, y: 0.000008587546, z: 3.4350185}
   m_Children: []
   m_Father: {fileID: 0}
