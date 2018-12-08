@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 195465717333449264}
   - component: {fileID: 114154737267292966}
   - component: {fileID: 208669477672453620}
+  - component: {fileID: 135757986095097038}
   m_Layer: 0
   m_Name: EnemyP1
   m_TagString: Enemy
@@ -108,7 +109,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1935047648084392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.8, z: -40.3}
+  m_LocalPosition: {x: -2.773837, y: 10.446942, z: 70.026}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 224608400907553248}
@@ -193,7 +194,7 @@ BoxCollider:
   m_GameObject: {fileID: 1935047648084392}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -209,7 +210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  destination: {fileID: 0}
 --- !u!114 &114179151207935410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -293,6 +293,18 @@ MonoBehaviour:
   image: {fileID: 114179151207935410}
   myNewXpSystem: {fileID: 0}
   xpGained: 10
+--- !u!135 &135757986095097038
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935047648084392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &195465717333449264
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -3735,7 +3747,7 @@ NavMeshObstacle:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1935047648084392}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Shape: 1
   m_Extents: {x: 0.5, y: 0.5, z: 0.5}

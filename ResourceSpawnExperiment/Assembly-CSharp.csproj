@@ -93,7 +93,7 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\CameraRotatoe.cs" />
      <Compile Include="Assets\Scripts\CamShake.cs" />
-     <Compile Include="Assets\Scripts\ChangeToBow.cs" />
+     <Compile Include="Assets\Scripts\ChangeToSword.cs" />
      <Compile Include="Assets\Scripts\copll.cs" />
      <Compile Include="Assets\Scripts\Core\Camera\CameraInitialState.cs" />
      <Compile Include="Assets\Scripts\Core\Camera\CameraRig.cs" />

@@ -1,23 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NewXPSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LogScript.cs">
     <Files>
       <File FileName="Assets\Scripts\TimeSystem.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\NewXPSystem.cs" Line="37" Column="49" />
-      <File FileName="Assets\Scripts\EnemySpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NewXPSystem.cs" Line="47" Column="5" />
+      <File FileName="Assets\Scripts\EnemySpawner.cs" Line="65" Column="1" />
       <File FileName="Assets\Scripts\Player_Health.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemyScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LogScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LogScript.cs" Line="88" Column="4" />
       <File FileName="Assets\Scripts\lookatmouse.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Sun.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Sun2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TurretPlacement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TurretPlacement.cs" Line="69" Column="84" />
       <File FileName="Assets\Scripts\NewCrafting.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SHooting.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\proje.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SHooting.cs" Line="71" Column="1" />
+      <File FileName="Assets\Scripts\proje.cs" Line="38" Column="103" />
       <File FileName="Assets\Scripts\shootytt.cs" Line="1" Column="1" />
       <File FileName="Assets\RespawnScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PickupR.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PickupR.cs" Line="24" Column="3" />
       <File FileName="Assets\Scripts\movement.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -13,6 +13,8 @@ public class NewXPSystem : MonoBehaviour {
 	public float currentRangedXp;
 	public float currentMeleeXp;
 
+	public bool upgrade = false;
+
 	//setting the variables for the experience bar
 	public GameObject experienceBar;
 	public Image image;
@@ -21,6 +23,12 @@ public class NewXPSystem : MonoBehaviour {
 
 	//Current UI text
 	public Text myXPRangedText;
+
+	public GameObject sword;
+
+	public GameObject newSword;
+
+	public Transform weaponSwitch;
 
 
 	// Use this for initialization
@@ -35,6 +43,10 @@ public class NewXPSystem : MonoBehaviour {
 		experienceBar = GameObject.FindWithTag ("ExperienceBar");
 
 		myEnemyScript = GameObject.FindWithTag ("Enemy").GetComponent<EnemyScript> ();
+
+		//sword = GameObject.FindWithTag("LogWeapon");
+
+		//weaponSwitch = GameObject.FindWithTag ("SelectWeapon").transform;
 
 		//image.fillAmount = 0;
 
@@ -68,6 +80,12 @@ public class NewXPSystem : MonoBehaviour {
 		if (currentMeleeXp >= 100 ) {
 			currentMeleeXp = currentMeleeXp - 100f;
 			meleeLevel = meleeLevel + 1;
+		}
+
+		if (rangedLevel == 2 && upgrade == false) {
+			upgrade = true;
+			Destroy (sword);
+			Instantiate (newSword, weaponSwitch.position, weaponSwitch.rotation);
 		}
 		
 	}

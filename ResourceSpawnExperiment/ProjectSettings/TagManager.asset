@@ -32,6 +32,7 @@ TagManager:
   - Graphic
   - selection
   - Platform
+  - LogWeapon
   layers:
   - Default
   - TransparentFX
