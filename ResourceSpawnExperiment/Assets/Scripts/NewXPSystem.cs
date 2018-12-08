@@ -25,8 +25,10 @@ public class NewXPSystem : MonoBehaviour {
 	public Text myXPRangedText;
 
 	public GameObject sword;
+	public GameObject rock;
 
 	public GameObject newSword;
+	public GameObject newBow;
 
 	public Transform weaponSwitch;
 
@@ -85,7 +87,9 @@ public class NewXPSystem : MonoBehaviour {
 		if (rangedLevel == 2 && upgrade == false) {
 			upgrade = true;
 			Destroy (sword);
+			Destroy (rock);
 			Instantiate (newSword, weaponSwitch.position, weaponSwitch.rotation);
+			Instantiate (newBow, weaponSwitch.position, weaponSwitch.rotation);
 		}
 		
 	}
