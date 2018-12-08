@@ -34,7 +34,7 @@ public class NewXPSystem : MonoBehaviour {
 
 		experienceBar = GameObject.FindWithTag ("ExperienceBar");
 
-		myEnemyScript = GameObject.FindWithTag ("Player").GetComponent<EnemyScript> ();
+		myEnemyScript = GameObject.FindWithTag ("Enemy").GetComponent<EnemyScript> ();
 
 		//image.fillAmount = 0;
 
