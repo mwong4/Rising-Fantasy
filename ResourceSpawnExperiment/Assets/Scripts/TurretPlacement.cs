@@ -66,7 +66,7 @@ public class TurretPlacement : MonoBehaviour {
 				//{
 
 				if(myTimeSystem.CurrentPhase <= 2){
-					x.transform.position = new Vector3 (transform.position.x, transform.position.y + 1, transform.position.z);
+					x.transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
 				}
 				//}
 			}
