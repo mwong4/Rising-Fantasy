@@ -33,6 +33,7 @@ TagManager:
   - selection
   - Platform
   - LogWeapon
+  - ShotPoint
   layers:
   - Default
   - TransparentFX

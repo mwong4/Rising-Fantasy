@@ -25,12 +25,16 @@ public class TurretMovement : MonoBehaviour
 
 		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
 
+		shotPoint = GameObject.FindWithTag ("ShotPoint").transform ;
+
     }
 
     // Update is called once per frame 
 
     void Update()
     {
+
+		shotPoint = GameObject.FindWithTag ("ShotPoint").transform ;
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
