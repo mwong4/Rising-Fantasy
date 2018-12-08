@@ -23,9 +23,9 @@ public class TurretMovement : MonoBehaviour
     {
 		canShoot = true;
 
-		myWeaponSwitching = GameObject.FindWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
+		myWeaponSwitching = GameObject.FindGameObjectWithTag ("SelectWeapon").GetComponent<WeaponSwitching> ();
 
-		shotPoint = GameObject.FindWithTag ("ShotPoint").transform ;
+		shotPoint = GameObject.FindGameObjectWithTag ("ShotPoint").transform ;
 
     }
 
@@ -34,7 +34,9 @@ public class TurretMovement : MonoBehaviour
     void Update()
     {
 
-		shotPoint = GameObject.FindWithTag ("ShotPoint").transform ;
+		shotPoint = GameObject.FindGameObjectWithTag ("ShotPoint").transform ;
+
+		Debug.Log (shotPoint.position);
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
