@@ -19,9 +19,9 @@
       <File FileName="Assets\RespawnScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PickupR.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\movement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ChangeToSword.cs" Line="16" Column="3" />
-      <File FileName="Assets\Scripts\ChangeToBow.cs" Line="21" Column="20" />
-      <File FileName="Assets\Scripts\TurretMovement.cs" Line="59" Column="5" />
+      <File FileName="Assets\Scripts\ChangeToSword.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ChangeToBow.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TurretMovement.cs" Line="28" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
