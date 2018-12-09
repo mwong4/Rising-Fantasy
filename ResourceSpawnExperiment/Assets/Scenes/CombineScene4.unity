@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4056248426775568, guid: 625e20f8bc9850a44a489226126187a1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.02
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: 4056248426775568, guid: 625e20f8bc9850a44a489226126187a1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -440,7 +440,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4671064146266234, guid: 400ba01795b138f4ca825d2faf49d23a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.3
+      value: 1.44
       objectReference: {fileID: 0}
     - target: {fileID: 4671064146266234, guid: 400ba01795b138f4ca825d2faf49d23a, type: 2}
       propertyPath: m_LocalPosition.z
@@ -539,7 +539,11 @@ Prefab:
     - target: {fileID: 54895334734145480, guid: 400ba01795b138f4ca825d2faf49d23a,
         type: 2}
       propertyPath: m_Constraints
-      value: 118
+      value: 116
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154191947856204, guid: 400ba01795b138f4ca825d2faf49d23a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 400ba01795b138f4ca825d2faf49d23a, type: 2}
@@ -610,7 +614,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4149096721663632, guid: 04503511a958f484ea00d3ee6ecd19f8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4149096721663632, guid: 04503511a958f484ea00d3ee6ecd19f8, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1418,6 +1422,86 @@ GameObject:
   m_PrefabParentObject: {fileID: 1223197420542264, guid: 400ba01795b138f4ca825d2faf49d23a,
     type: 2}
   m_PrefabInternal: {fileID: 244286411}
+--- !u!82 &1709082163
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1709082162}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: dea41d2d97c36254dba2bfa5aa2cc8b5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &1752174988
 Prefab:
   m_ObjectHideFlags: 0
@@ -1910,7 +1994,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4866782582463748, guid: b99fd2719c2ddfb4492fe4548bdcbe0b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.7
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4866782582463748, guid: b99fd2719c2ddfb4492fe4548bdcbe0b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1936,6 +2020,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 64340021336952008, guid: b99fd2719c2ddfb4492fe4548bdcbe0b,
+        type: 2}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64340021336952008, guid: b99fd2719c2ddfb4492fe4548bdcbe0b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b99fd2719c2ddfb4492fe4548bdcbe0b, type: 2}
   m_IsPrefabParent: 0
@@ -1952,7 +2046,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4149096721663632, guid: 04503511a958f484ea00d3ee6ecd19f8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4149096721663632, guid: 04503511a958f484ea00d3ee6ecd19f8, type: 2}
       propertyPath: m_LocalPosition.z

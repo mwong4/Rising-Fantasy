@@ -24,12 +24,15 @@ public class Player_Health : MonoBehaviour {
 		myHealthText.text = "Health  " + ((health / 5) * 100) + "%";
 
 		image.fillAmount = health / 5;
+
+		Debug.Log (health/5);
 	}
 
 	void OnCollisionEnter (Collision col){
 		if (col.gameObject.tag == "Enemy") {
-			hit = true;
 			health = health - 1;
+			hit = true;
+
 		}
 	}
 
